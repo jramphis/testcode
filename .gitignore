@@ -14,3 +14,6 @@ data/processed/*.csv
 data/processed/*.json
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Document build artifacts
+docs/**/build/node_modules/

@@ -1,0 +1,900 @@
+{
+ "front": [
+  "POLICY PAPER",
+  "Maternity Without Walls",
+  "A Cost-Effective Architecture for Universal Obstetric and Reproductive Health Access in Puerto Rico",
+  "Decision draft for Ramphis Castro",
+  "Infinity Forge  |  Caguas, Puerto Rico",
+  "13 September 2026",
+  "Scope note. This paper answers a single question: what is the most cost-effective path to maximum access to obstetric, pregnancy, postpartum, and reproductive health services in Puerto Rico, assuming any regulatory, financing, workforce, or technological option is on the table. It is built from a three-track research effort (Puerto Rico baseline; global evidence on delivery and payment models; frontier technology and workforce pathways) completed on 13 September 2026, with every load-bearing figure sourced in Appendix B. Facts and inferences are separated throughout. Where a figure could not be verified it is marked as such rather than omitted."
+ ],
+ "sections": [
+  {
+   "h1": "Contents",
+   "body": [
+    "1. The Decision in One Page",
+    "2. What Is Actually Broken: A Structural Diagnosis",
+    "2.1 A birth system built for 42,000 births now serves 18,000",
+    "2.2 The workforce arithmetic",
+    "2.3 The cesarean economy",
+    "2.4 Geography, the islands, and the deserts",
+    "2.5 Money: Plan Vital, the cliff, and what payment currently rewards",
+    "2.6 The legal climate",
+    "2.7 Surveillance is degrading at the wrong moment",
+    "3. What the Evidence Says Works, and What It Does Not",
+    "3.1 Midwifery-led continuity and midwifery units",
+    "3.2 Birth centers and home birth: the integration condition",
+    "3.3 Labor support, doulas, and community health workers",
+    "3.4 Prenatal redesign, telehealth, and remote monitoring",
+    "3.5 Cesarean reduction at system level",
+    "3.6 Regionalization and remote obstetrics",
+    "3.7 Payment reform: what has and has not moved outcomes",
+    "3.8 Reproductive health beyond pregnancy",
+    "3.9 Evidence scorecard",
+    "4. The Recommended Architecture",
+    "4.1 Design principles",
+    "4.2 Tier 0: Home and community care for every pregnancy",
+    "4.3 Tier 1: Community Maternity Units and alongside midwifery units",
+    "4.4 Tier 2: Regional Maternity Hubs",
+    "4.5 The readiness layer: every emergency department, every ambulance, every island",
+    "4.6 Vieques and Culebra",
+    "4.7 Reproductive health without an OBGYN",
+    "4.8 A Puerto Rico standard for respectful birth",
+    "5. Paying for It: Payment Architecture and Budget",
+    "5.1 Mode-neutral payment and public reporting",
+    "5.2 Standing capacity payments for hubs",
+    "5.3 A per-pregnancy population payment to Maternity Homes",
+    "5.4 Parity, doula rates, remote monitoring, and contraception",
+    "5.5 Order-of-magnitude budget",
+    "5.6 The federal track",
+    "6. Workforce and Legal Reforms",
+    "6.1 A Midwifery Practice and Birth Center Act",
+    "6.2 Licensure compacts and cross-border telehealth",
+    "6.3 Liability: a birth-injury fund and clinical safe harbors",
+    "6.4 Pipelines: residency, fellowship, Conrad 30, Act 60",
+    "7. Technology Stack: What to Buy Now, Pilot, and Ignore",
+    "7.1 Buy now",
+    "7.2 Pilot with evaluation",
+    "7.3 Watch, do not buy",
+    "7.4 The data spine",
+    "8. Sequencing",
+    "9. Adversarial Review: How This Fails",
+    "10. What Must Be Verified Before Committing Money",
+    "Appendix A. Budget Assumptions",
+    "Appendix B. Sources"
+   ]
+  },
+  {
+   "h1": "1. The Decision in One Page",
+   "body": [
+    "Puerto Rico's obstetric system was built for the 42,000 births a year it recorded in 2010. It now serves 18,000, on a trajectory toward 15,000 by the early 2030s, with a total fertility rate of 0.87 that is among the lowest of any jurisdiction under the US flag [6][7]. Every visible symptom of the crisis, from thirteen labor-and-delivery closures since 2017 to a cesarean rate above 50% to the fact that only 63 of 468 licensed OBGYNs can be confirmed to attend births, is downstream of one structural fact: a hospital-centric, obstetrician-dependent model of care cannot be financed at this volume, at Plan Vital payment rates, with a physician workforce that is leaving [1][4]. Reopening delivery wards and recruiting obstetricians, the instinctive response, is the most expensive path available and the least likely to work, because it attacks the symptom with the scarcest and costliest input.",
+    "The cost-effective path is the opposite one. It moves the default site of care out of the hospital and into the home and the community for the roughly 70% of pregnancies that are low-risk, anchors that care in a licensed and adequately paid midwifery and doula workforce, concentrates intrapartum obstetric capacity into a small number of high-volume regional hubs that can afford 24-hour laborist, anesthesia, and neonatal coverage, backfills the geography with midwife-led community maternity units and an obstetric-readiness layer in every emergency department and ambulance, and pays for all of it by taking the single largest avoidable cost in the system, roughly 3,600 excess cesareans a year, out of the payment stream. Every element has precedent. The Birthplace in England cohort, the CMS Strong Start evaluation, the Cochrane reviews on midwife continuity and continuous labor support, Scotland's community maternity units, California's CMQCC collaborative, and Brazil's Parto Adequado program each supply the evidence for one piece [36][41][42][45][53][54][58]. What has never been done is to assemble them into one system on a 3.2 million-person island under US federal law. That is the design problem this paper solves.",
+    "The recommendation. Adopt a three-tier architecture: Tier 0, home and community care led by a named midwife with a doula and a connected monitoring kit for every pregnancy; Tier 1, a network of five to seven midwife-led Community Maternity Units and alongside midwifery units for low-risk birth; Tier 2, six to eight Regional Maternity Hubs with 24-hour laborist, anesthesia, and Level II–III neonatal coverage, financed through standing capacity payments rather than per-birth fees. Wrap the system in an obstetric-readiness layer for every emergency department, EMS unit, and both island municipalities. Finance it through mode-neutral payment for birth, physician-level public reporting of cesarean rates under the Robson classification, midwife payment parity, and a per-pregnancy population payment to accountable Maternity Homes. Legislate a Midwifery Practice and Birth Center Act, join the Nurse Licensure and Interstate Medical Licensure Compacts, and create a no-fault birth-injury compensation fund. Buy the handful of technologies that are cleared, cheap, and evidenced today (AI-guided handheld ultrasound, HPV self-collection, the E-MOTIVE hemorrhage bundle, freeze-dried plasma, solar-plus-satellite clinic kits) and pilot the rest with evaluation attached.",
+    "The order-of-magnitude economics are favorable. The incremental steady-state cost of the full architecture is estimated at $45–70 million a year across all payers before offsets, against a Plan Vital budget of roughly $4.7–5.3 billion; direct offsets from cesarean reduction, avoided preterm and NICU costs, and substitution of midwife for obstetrician time are estimated at $20–35 million a year, so the net cost is on the order of $25–45 million, or well under 1% of the public health plan. Through September 2027 the federal government pays 76 cents of every Medicaid dollar of that, which makes the next twelve months the cheapest window Puerto Rico will ever have to build the system [19][20]. After FY2027 the Medicaid cliff makes lowering the cost per birth not a policy preference but a fiscal necessity, and this architecture is also the only credible way to do that.",
+    "The paper proceeds as follows. Section 2 gives the structural diagnosis with the numbers behind it. Section 3 reviews what the evidence actually supports, and what it does not, model by model. Section 4 lays out the recommended architecture tier by tier, including the island municipalities, postpartum care at home, and reproductive health outside pregnancy. Section 5 covers payment and budget. Section 6 covers the workforce and legal reforms without which the architecture cannot stand. Section 7 sorts the technology into buy, pilot, and ignore. Section 8 sequences the work over 48 months. Section 9 is an adversarial review of how the plan fails. Section 10 lists what must be verified before money moves."
+   ]
+  },
+  {
+   "h1": "2. What Is Actually Broken: A Structural Diagnosis",
+   "body": [
+    {
+     "h2": "2.1 A birth system built for 42,000 births now serves 18,000"
+    },
+    "Live births in Puerto Rico fell from 42,153 in 2010 to 19,112 in 2022, 18,641 in 2023, 18,128 in 2024, and 18,003 in 2025, a 57% decline in fifteen years that the Registro Demográfico's own officials described as probably the steepest since records began in 1888 [6][7]. The total fertility rate fell from 1.62 to 0.87 over the same period. Nothing in the demographic outlook reverses this: out-migration is concentrated among adults of reproductive age, and the cohort of women aged 20 to 34 is shrinking. Any system designed today should be sized for 15,000 births, not 18,000, and certainly not for the 36 delivery wards that existed in 2017.",
+    "Hospitals have responded rationally to the volume collapse. Thirteen labor-and-delivery units closed between 2017 and 2026 while two opened, leaving 23 [1]. The named closures tell the story. HIMA San Pablo Fajardo closed in August 2022 for lack of obstetricians willing to cover 24 hours a day, taking its neonatal unit with it and redirecting Vieques and Culebra patients to Humacao or Carolina [8]. Hospital Damas in Ponce closed in February 2024 after its births fell from 1,520 in 2012 to 452 in 2023 [9]. Pavía Arecibo requested closure of both obstetrics and its NICU in November 2024, citing falling births [10]; the Secretary of Health later said he never authorized it, and the unit's status is disputed [1]. San Carlos Borromeo in Moca and Buen Samaritano in Aguadilla followed [11]. The pattern is uniform: a unit that must staff obstetrics, anesthesia, and neonatal resuscitation around the clock cannot cover its fixed cost on 400 to 500 births a year at Plan Vital rates. A senior obstetrician put the point directly to the press in 2023: no delivery room in Puerto Rico is at capacity [102].",
+    "The inference that matters for design is that closures will continue regardless of policy unless the fixed cost of readiness is paid separately from the variable cost of each birth. A 24-hour obstetric hospitalist line alone costs $1.3–1.5 million a year at 2025 locum rates of roughly $3,900 per 24-hour shift [85]; add anesthesia and neonatal call and a unit needs on the order of 1,200 to 1,500 births a year to break even on per-case payment. Eighteen thousand births can support at most twelve to fifteen such units at that threshold, and far fewer if payment is not reformed. The system is heading toward six to ten units by attrition. The policy choice is whether that consolidation happens by unplanned collapse, leaving deserts with no readiness layer, or by design, with the savings from consolidation reinvested in community-based care.",
+    {
+     "h2": "2.2 The workforce arithmetic"
+    },
+    "The headline OBGYN counts are misleading because they measure different things. There are 468 physicians with active OBGYN licenses, of whom roughly 408 appear to work on the island, but the Centro de Periodismo Investigativo's 2026 census of 220 practices found only 63 that confirmed they attend pregnancies through delivery, 56 accepting new patients, and 47 accepting Plan Vital; two-thirds of respondents do not see pregnant women at all [1]. Earlier press estimates put the number of actively delivering obstetricians near 80 [8][102]. Only 24 of 78 municipalities have an identifiable delivering OBGYN. The single ACGME residency, at UPR, graduates a maximum of five obstetrician-gynecologists a year, and there is no evidence that more than a fraction stay to practice obstetrics [12].",
+    "Taken at face value, 63 to 80 delivering physicians for 18,000 births implies 225 to 285 births per physician per year, roughly two and a half to three times the mainland norm, and about 380 Plan Vital births per Vital-accepting physician. That load has two consequences. It makes scheduled delivery, and therefore cesarean, a rational time-management strategy for the individual physician, and it makes recruitment nearly impossible because the job on offer is an unsustainable one. Puerto Rico cannot recruit its way out: even doubling residency output to ten a year would take a decade to add fifty physicians, net of departures, and would not change the underlying economics of 24-hour coverage.",
+    "The midwifery workforce that every comparable health system uses to carry low-risk pregnancy barely exists. Puerto Rico's nursing practice law, Ley 254-2015, does recognize the Enfermera Obstétrica-Partera as an advanced-practice role requiring a master's or doctoral degree in obstetrics-midwifery, with authority to manage uncomplicated pregnancy and birth, order diagnostic tests, and prescribe vitamins, antibiotics, contraceptives, and immunizations under collaborative protocols with physicians [14]. But no midwifery program operates on the island (UPR's 1998 graduate program is defunct), the number of practicing nurse-midwives is unknown, hospital privileges are rare, and direct-entry midwives have no licensing pathway at all; Ley 31-2023 merely designates 5 May as Día de la Partería [13][15]. Eleven certified midwives practice, all credentialed off-island. In 2021 they initiated 226 planned home births, 87% of which completed at home [13]. A collaborative OBGYN-nurse-midwife model in Ponce shows the integration is possible in principle [86]. The workforce Puerto Rico needs most is the one it has never built.",
+    {
+     "h2": "2.3 The cesarean economy"
+    },
+    "Puerto Rico's cesarean rate rose from 46.3% in 2018 to 50.5% in 2022 and 50.9% in 2023, against roughly 32% on the mainland and 33.8% for Puerto Rican mothers giving birth in the states [4][5]. The low-risk (nulliparous, term, singleton, vertex) rate was 49.4% in 2023 versus 28.3% for Puerto Rican mothers on the mainland; March of Dimes reports 47.1% for 2024, the worst of 52 jurisdictions [2]. The payer breakdown is revealing: 51.3% for private insurance, 49.9% for Medicaid, and 27.6% for self-pay births, which means women paying out of pocket are delivered by cesarean at roughly the mainland rate while insured women, whatever the insurer, are delivered by cesarean at nearly double it [4]. Hospital-level data from 2014, cited in the Senate in 2025, showed individual institutions at 66% to 70% [31].",
+    "The gap between the self-pay rate and the insured rate is the strongest single piece of evidence that the excess is driven by system incentives rather than by maternal risk. The incentives are identifiable. Payment for cesarean exceeds payment for vaginal birth for both the facility and the physician. A scheduled cesarean takes a predictable hour; attending a labor takes an unpredictable day and night, which matters enormously when one physician carries 280 births. Liability exposure is perceived to be lower for intervening than for waiting. Continuous labor support and midwifery, the two interventions with the strongest evidence for lowering cesareans, are nearly absent. And there is no public reporting, so no hospital or physician bears any reputational cost for a 68% rate.",
+    "The cost is large. Taking a 30% overall rate as an achievable five-year target, roughly what California's collaborative achieved as a low-risk rate and well above the WHO reference range, the excess is about 20 percentage points on 18,000 births, or 3,600 cesareans a year. At a facility-plus-professional payment differential of $2,000–4,000 per case, that is $7–14 million a year in direct excess payments across all payers, before the downstream costs of repeat cesareans, placenta accreta, longer stays, higher NICU admission, and higher severe maternal morbidity, which is 307 per 10,000 deliveries in Puerto Rico against 93 nationally [2]. A conservative all-in estimate of the annual cost of the cesarean excess is $10–20 million. This is the reservoir from which the rest of the architecture is financed.",
+    {
+     "h2": "2.4 Geography, the islands, and the deserts"
+    },
+    "March of Dimes classifies 33.3% of Puerto Rico's municipalities as maternity care deserts, home to roughly 111,000 women of reproductive age and about 3,000 births a year; 34.6% of municipalities have no obstetric clinician, 78.2% have no birthing facility, and every rural municipality lacks one [3]. About 57,000 women live more than 30 minutes from a birthing hospital, though the island-wide average travel time is a manageable 17 minutes, which is the important nuance: Puerto Rico's problem is not distance in the Montana sense but the combination of moderate distances, unreliable roads and power after storms, and a complete absence of any obstetric capability at the destination for those in the west, the center, and the islands.",
+    "Vieques and Culebra are the extreme case and the design test. No births occur on Vieques; every delivery requires a ferry crossing costing about $30 round trip, usually with an overnight stay, and a Departamento de Salud obstetrician visits twice a week [17]. The new $75 million Vieques hospital, financed largely by FEMA, was due for hand-over in December 2025 with an operating room designated for births, but no confirmation of an opening date or of any obstetric staffing plan could be found as of this writing [17]. Culebra's first-trimester prenatal care initiation collapsed from 100% in 2016 to 53% in 2023 [1]. Without 24-hour obstetric, anesthesia, and neonatal staff, which the islands' combined 60 to 80 births a year cannot justify, the new facility will function as an emergency delivery site, not a maternity unit. The islands therefore need a model that no hospital can provide: home-based prenatal care with remote dating and monitoring, a planned relocation window before term, guaranteed lodging near a hub, hemorrhage stabilization capacity for the unplanned birth, and tele-obstetric backup for the nurse or midwife on the ground.",
+    {
+     "h2": "2.5 Money: Plan Vital, the cliff, and what payment currently rewards"
+    },
+    "Plan Vital covers about 1.3 million people, roughly 45% of the population, and paid for 11,855 births, 65.8% of the total, in 2024 [2][18]. The program's federal financing is a capped allotment rather than the open-ended match the states receive: $3.475 billion in FY2025, $3.645 billion in FY2026, and $3.825 billion in FY2027 at a 76% federal match, under the Consolidated Appropriations Act of 2023 [19][100]. On 1 October 2027 the allotment reverts to the FY2019 cap indexed to medical inflation and the match falls to 55%, producing an estimated shortfall of $1.3–3 billion a year unless Congress acts again [20]. The same 2023 law conditions the funding on a physician payment floor of 75% of Medicare, an asset verification system, and annual access reports to Congress [100]. Puerto Rico is excluded from the $50 billion Rural Health Transformation Program created in 2025, which is open only to the fifty states [23], and it was not among the fifteen jurisdictions selected for the CMS Transforming Maternal Health model [63].",
+    "Within that envelope, three payment facts shape obstetric behavior. First, Plan Vital moved inpatient payment to APR-DRGs on 1 October 2025, with a transition that must end by July 2027 [21]; this is an open window, because DRG weights for vaginal and cesarean birth are being set now and can be set to be mode-neutral. Second, Plan Vital pays for live-video telehealth at parity but has no explicit benefit for remote patient monitoring, store-and-forward, or audio-only care [22], which means every home-monitoring model in Section 7 currently has no fee-for-service path and must run through managed-care capitation or an ASES policy change. Third, the actual global obstetric fee paid to physicians by the Vital managed-care organizations is not published anywhere, and the anecdotal reports of a very low delivery fee could not be quantified; this is the single most important number missing from the public record, and the first thing ASES should release. What is documented is the payment environment around it: one Vital MCO carried $170.7 million in unpaid claims in 2025, and half of a sample of specialists refused to accept it [25].",
+    "March of Dimes records that Puerto Rico's Medicaid agency is actively reimbursing doula care and requires and pays for postpartum depression screening at well-child visits [2]. No rate, uptake figure, or enabling regulation for the doula benefit could be located, and the fact that a bill filed on 11 September 2026 seeks to force hospitals to admit doulas to delivery rooms, because hospitals read the 2006 companion law as permitting only one person, suggests the benefit exists on paper and is largely inaccessible in practice [16]. The twelve-month postpartum coverage extension adopted by nearly every state does not appear in KFF's tracker for Puerto Rico, which lists only the US Virgin Islands among territories, and no ASES or CMS document confirming adoption was found [24]. Until ASES confirms otherwise, Plan Vital should be assumed to drop postpartum women at 60 days.",
+    {
+     "h2": "2.6 The legal climate"
+    },
+    "Three features of the legal environment bear directly on obstetric supply. The first is liability. Ley 104-1955 caps claims against the Commonwealth at $75,000 per person and $150,000 per incident, and Ley 94-2023 extended that protection to residents and trainees in ACGME-affiliated institutions, explicitly citing physician emigration [28]. Private obstetricians serving Plan Vital patients enjoy no such protection, so the highest-risk specialty carries uncapped exposure while treating the lowest-paying patients. Malpractice premium data for obstetrics could not be obtained from SIMED or other carriers and is a verification item.",
+    "The second is the 2025–2026 wave of reproductive legislation. Ley 122-2025 imposes parental consent and mandatory Departamento de la Familia referral for abortion in girls aged 15 and under, Ley 183-2025 inserts juridical personhood from conception into the Civil Code, and Ley 18-2026 defines the fetus at any stage as a human being in the Penal Code [29][91]. More than thirty organizations have warned of legal uncertainty for clinicians managing miscarriage, ectopic pregnancy, and fetal anomaly [30]. Abortion itself remains legal under Pueblo v. Duarte Mendoza and the Commonwealth constitution's privacy right, but clinics have fallen from seven in 2016 to four in 2025. No quantified effect on OBGYN retention exists, but a personhood statute layered on uncapped liability is, as an inference, a plausible additional push factor for a specialty already leaving; at minimum it argues for explicit clinical safe-harbor language, which this paper recommends in Section 6.",
+    "The third is the legislative record on transparency. In 2025 and 2026 the Senate Health Commission issued negative reports on bills to publish cesarean rates by physician (PS 225), to create an obstetric violence cause of action with double damages (PS 445), and to address delivery-ward closures; PC 669, which would require quarterly hospital reporting of births by mode using the Robson classification, has not advanced [1][32]. The political economy is clear: the hospital association and the medical college have so far blocked the transparency measures that the evidence in Section 3 identifies as among the cheapest and most effective interventions available. Any strategy must either win that fight in the Legislature or route around it through ASES contracting authority, which Section 5 proposes.",
+    {
+     "h2": "2.7 Surveillance is degrading at the wrong moment"
+    },
+    "Puerto Rico's maternal mortality ratio is reported by March of Dimes at 59.2 per 100,000 births for the pooled 2019–2023 period, two and a half times the national figure [2]. The Centro de Periodismo Investigativo reports 8 pregnancy-related deaths in 2023 and 22 preliminary deaths in 2024 [1]. On 18,000 births those counts translate to roughly 43 and 121 per 100,000, and the swing illustrates how unstable single-year ratios are at this volume; the 2024 figure is preliminary and may include pregnancy-associated deaths that a review committee would exclude. Puerto Rico has had a statutory surveillance system since 2005 and a Maternal Mortality Review Committee under Ley 186-2016 [99], but no public review report with cause-of-death and preventability findings could be found. The federal ERASE MM program that funds such committees lost its appropriation on 30 September 2025 [33], and CDC dismantled the PRAMS surveillance team in 2025 with grants expiring in April 2026 [34]. Severe maternal morbidity stands at 307 per 10,000 deliveries, more than three times the national rate [2]. Congenital syphilis rose from 5 to 10 cases a year through 2022 to 29 in 2024 and 33 in 2025 [35]. The island is losing its instruments precisely as the readings turn bad. Any architecture must therefore include a locally financed data spine; Section 7.4 specifies it.",
+    {
+     "table": {
+      "caption": "Table 1. The ten numbers that define the problem",
+      "header": [
+       "Indicator",
+       "Value",
+       "Year",
+       "Source"
+      ],
+      "rows": [
+       [
+        "Live births",
+        "18,003 (down from 42,153 in 2010)",
+        "2025",
+        "[6][7]"
+       ],
+       [
+        "Total fertility rate",
+        "0.87",
+        "2024",
+        "[7]"
+       ],
+       [
+        "OBGYNs confirmed attending deliveries / accepting Plan Vital",
+        "63 / 47 (of 468 licensed)",
+        "2026",
+        "[1]"
+       ],
+       [
+        "Hospital labor-and-delivery units",
+        "23 (down from 36 in 2017)",
+        "2026",
+        "[1]"
+       ],
+       [
+        "Cesarean rate, overall / low-risk",
+        "50.9% / 49.4%",
+        "2023",
+        "[4]"
+       ],
+       [
+        "Births paid by Plan Vital",
+        "65.8% (11,855)",
+        "2024",
+        "[2]"
+       ],
+       [
+        "Maternal mortality (pooled) / severe maternal morbidity",
+        "59.2 per 100k / 307 per 10k",
+        "2019–23 / 2022",
+        "[2]"
+       ],
+       [
+        "Municipalities that are maternity care deserts",
+        "33.3%; 78.2% lack a birthing facility",
+        "2024",
+        "[3]"
+       ],
+       [
+        "Federal Medicaid allotment and match",
+        "$3.825B at 76% through 30 Sep 2027; then FY2019 cap and 55%",
+        "FY2027",
+        "[19][20]"
+       ],
+       [
+        "OBGYN residency graduates per year",
+        "5 (UPR, sole program)",
+        "2026",
+        "[12]"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "h1": "3. What the Evidence Says Works, and What It Does Not",
+   "body": [
+    "This section is deliberately adversarial. Maternal health policy is crowded with interventions that are popular, humane, and unproven, and a plan that stakes public money on them will fail in the evaluation. The standard applied here is: what is the effect size, how strong is the evidence, what does it cost, and what preconditions did the evidence depend on that Puerto Rico currently lacks.",
+    {
+     "h2": "3.1 Midwifery-led continuity and midwifery units"
+    },
+    "The 2024 Cochrane review of midwife continuity of care, pooling 17 randomized trials and 18,533 women, finds a relative risk of 0.91 for cesarean birth, 1.05 for spontaneous vaginal birth, 0.89 for instrumental birth, and 0.83 for episiotomy, all at moderate certainty, with no significant effect on preterm birth, fetal loss, or neonatal death [36]. The honest reading is that midwife continuity is safe, modestly reduces intervention, and improves experience; the earlier claims of a 24% preterm reduction did not survive the update. The trials were run in the United Kingdom, Australia, and Ireland, in systems where midwives already had legal autonomy, hospital privileges, and integrated transfer. The New Zealand cohort of 244,000 births, where 91.5% of care was midwife-led, found higher adjusted odds of low Apgar and neonatal encephalopathy in the midwife-led arm, with no difference in perinatal mortality; the study could not separate midwife-led women who received obstetric input [37]. It is confounded but it is the strongest caution in the literature against near-universal autonomous midwifery for first births without strong obstetric integration.",
+    "On cost, MACPAC cites midwife-attended low-risk births averaging $2,421 less than obstetrician-led care [39]. On feasibility, midwives attend about 12% of US births with roughly 14,000 certified nurse-midwives nationally, but Alaska and New Mexico reach about 30% of Medicaid births through licensure, payment parity, and rural necessity [39]; roughly half of state Medicaid programs pay nurse-midwives 100% of the physician fee and 18 states plus DC also pay non-nurse midwives [40]. The transferable target for Puerto Rico is the New Mexico level, 30–40% of births midwife-attended within a decade, not the New Zealand level. The preconditions are independent practice authority, hospital privileges with written transfer protocols, payment parity, and a local education pipeline; Puerto Rico has none of the four at scale. The characteristic failure mode is a midwife who is licensed but cannot get privileges or a managed-care contract, which the Minnesota birth-center record documents at length.",
+    {
+     "h2": "3.2 Birth centers and home birth: the integration condition"
+    },
+    "Two large studies define what is known. Birthplace in England followed about 64,000 low-risk births across settings and found an adverse perinatal outcome rate of 4.3 per 1,000 overall, no significant excess for freestanding or alongside midwifery units for either first or subsequent births, and a significant excess for planned home birth of first babies (9.3 versus 5.3 per 1,000 in obstetric units), with no excess for subsequent babies; cost per birth was £1,142 in an obstetric unit versus £780 at home with midwifery units in between [41]. The CMS Strong Start evaluation of roughly 46,000 Medicaid women found that birth-center participants, compared with propensity-matched Medicaid comparators, had preterm birth of 6.3% versus 8.5%, cesarean of 17.5% versus 29%, low birthweight of 5.9% versus 7.4%, and Medicaid spending $1,759 (21%) lower for the birth and $2,010 (15%) lower through the first year of life [42]. The group prenatal care and maternity-care-home arms of the same evaluation showed no significant improvement.",
+    "Home birth is where the evidence forks on a single variable: integration. Hutton's 2019 meta-analysis of 500,000 intended home births found no mortality difference in well-integrated systems (odds ratios near 1.0 for both first and subsequent births) but a point estimate three times higher for first births in less-integrated systems, and the Oregon data that underlie US concern showed perinatal mortality of 3.9 versus 1.8 per 1,000 for planned out-of-hospital birth [43][44]. The National Academies' 2020 committee distilled five integration conditions: a regulated system, covered options, providers qualified to manage first-line complications, seamless transfer, and appropriate risk assessment [43]. Puerto Rico's current home-birth sector, eleven off-island-credentialed midwives operating without a licensing law, hospital agreements, or coverage, is the unintegrated case. The policy conclusion is not to discourage home and birth-center birth, which the evidence shows is safe and $2,000 cheaper when integrated, but to build the integration before scaling it, and to steer first births toward alongside units and hubs rather than home.",
+    {
+     "h2": "3.3 Labor support, doulas, and community health workers"
+    },
+    "The Cochrane review of continuous labor support (24 trials, 15,347 women) finds a relative risk of 0.75 for cesarean, 1.08 for spontaneous vaginal birth, 0.62 for low five-minute Apgar, and 0.69 for a negative birth experience, with the effect largest when the supporter is a doula rather than hospital staff, though the evidence is graded low quality and many trials came from settings with no companion at all [45]. Twenty-six states and DC now reimburse doulas under Medicaid at maxima ranging from under $800 to over $3,000 [47]. The failure mode is documented in MACPAC's case studies: Minnesota and New Jersey achieved use in a tiny fraction of births despite demand, because of low rates, physician-referral requirements, administrative burden, and workforce scarcity [46]. Kozhimannil's modeling suggests Medicaid doula coverage is cost-saving through averted cesareans and preterm births, but only at meaningful uptake. Given that Puerto Rico's hospitals currently refuse to admit doulas as a second companion, the design must pair the benefit with a legal right of access, a rate of at least $1,500 with a labor-attendance component, direct enrollment, and a locally trained workforce.",
+    "Home visiting by nurses has a different profile. The Washington State Institute for Public Policy estimates Nurse-Family Partnership returns $1.48 per dollar, $21,379 in benefits against $14,459 in cost per participant, with a 65% probability of positive net value [92]; it is expensive per family and most benefits accrue outside the health budget over decades. It belongs in the architecture as a targeted service for first-time mothers with high social risk, not as a universal layer. Group prenatal care (CenteringPregnancy) showed a 36% lower preterm risk and net savings in a South Carolina Medicaid propensity study [93], but the largest quasi-experimental test, Strong Start, found no outcome benefit [42]; it is cheap, popular, and plausibly cost-neutral, and it should be offered without banking preterm savings on it.",
+    {
+     "h2": "3.4 Prenatal redesign, telehealth, and remote monitoring"
+    },
+    "The American College of Obstetricians and Gynecologists' April 2025 clinical consensus formally abandons the fixed schedule of 12 to 14 in-person prenatal visits in favor of risk-tailored schedules with telehealth and home monitoring [48]. That guidance removes the professional-standards objection to the model this paper proposes. The evidence on what it does is more nuanced than advocates suggest. The Mayo Clinic OB Nest randomized trial cut visits from 13.7 to 9.9 with higher satisfaction and maintained quality, but personnel cost rose 34% because nursing time increased by 237 minutes per patient while physician time fell by only 54 [49]. Reduced-visit hybrid care is therefore an access and workforce-substitution tool, not a cost saver, unless payment is decoupled from visits; in Puerto Rico, where the scarce input is the physician hour, substitution is exactly the point.",
+    "Postpartum remote blood pressure monitoring is the intervention most often oversold. The Penn Heart Safe Motherhood program's implementation data are striking: blood pressure capture rose from 44% to 92%, readmissions fell from 5% to 1%, and the racial gap in follow-up closed [50]. But the 2025 meta-analysis of the four randomized trials, 714 women, found no statistically significant reduction in hypertensive readmission (5.3% versus 11.8%) and a doubling of emergency department visits (9.0% versus 4.4%) [51]. The correct conclusion for Puerto Rico is that home blood pressure monitoring is a cheap and effective way to get blood pressure measured in the ten days after birth, which matters when hypertensive disorders affect 11% of pregnancies and have risen 21% [1], but it must be paired with a nurse triage hub that can manage a reading by phone, or it will send women to emergency departments that have no obstetric capability. Continuous glucose monitoring for gestational diabetes, across eleven trials, changed birth weight slightly and nothing else [87]; it should not command a premium over glucometers.",
+    {
+     "h2": "3.5 Cesarean reduction at system level"
+    },
+    "The Cochrane review of non-clinical interventions gives high-certainty evidence for two levers: guidelines with mandatory second opinion reduce cesareans by 1.9 percentage points and guidelines with audit and feedback by 1.8 points, while opinion-leader education reduced elective cesareans from 66.8% to 53.7% in one high-cesarean setting [52]. Those are single-digit effects and Puerto Rico needs twenty points, so the question is what combinations have achieved more. California's CMQCC collaborative took the statewide low-risk rate from 26.0% to 22.8% between 2016 and 2019 while severe newborn complications fell, using physician-level data feedback, expanded labor support, public reporting including on consumer platforms, and payer pressure [53]. Brazil's Parto Adequado program, the closest analog to Puerto Rico's private-sector baseline, raised the vaginal birth rate in 28 high-cesarean private hospitals from 21.5% to 34.8% in two years, a 13-point absolute shift, with gains tightly correlated to the depth of hospital governance change [54].",
+    "Payment mechanisms alone have a weaker record. Minnesota's blended payment produced a three-point decline in one analysis and none in the state's own data, and was rescinded; Texas nonpayment for early elective delivery cut such deliveries 10–14%; Washington's pay-for-performance took early elective delivery from 15.5% to 1% [55]. The pattern across the literature is that measurement and exposure change physician behavior more reliably than marginal price changes, and that the two together, mode-neutral payment removing the incentive plus public reporting adding a reputational cost, are the evidence-backed combination. Observational data associate laborist coverage and family-physician presence on labor units with lower cesarean rates [59]; both are staffing choices Puerto Rico's hubs can make. For costing, each avoided cesarean saves roughly $2,000–4,000 in first-year payments, and a 20-point reduction is worth $10–20 million a year.",
+    {
+     "h2": "3.6 Regionalization and remote obstetrics"
+    },
+    "Two bodies of evidence pull in opposite directions and both are right. Kozhimannil and colleagues found that after rural obstetric closures, births in hospitals without obstetric units rose from 0.4% to 2.5% in remote counties, with more out-of-hospital and preterm births [57]. Fischer, Royer, and White's event study found that closures increased travel distance but produced no detectable increase in infant mortality, a slight decline in cesareans, and no harm at longer distances [56]. The reconciliation is that consolidation into well-run regional units is not inherently harmful, and may improve quality, provided the unplanned birth in the wrong place is prepared for; the harm concentrates in unready emergency departments and ambulances. Low-volume units are not a safe haven: hospitals with 10 to 110 births a year had higher odds of low-risk and non-indicated cesarean than higher-volume units [101]. Consolidation to a smaller number of high-volume hubs is therefore defensible on safety grounds if, and only if, the readiness layer is funded.",
+    "What fills the gap between hub and home is the midwife-led community unit. Scotland's community maternity units, located about 40 miles from an obstetric unit with no obstetrician on site, delivered 78.6% of eligible women locally with a 16.9% intrapartum transfer rate, rare severe morbidity, and a 0.3% third-degree tear rate [58]. Norway's fødestue units follow the same template. Family physicians with obstetric training are the other rural workhorse: only 2.1% of US family physicians perform cesareans, but they are four times more likely to practice in small rural counties and twice as likely in counties with no OBGYN [59]. Obstetric readiness for hospitals without delivery units has a standard-of-care toolkit from the Alliance for Innovation on Maternal Health but essentially no outcome evidence [60]; Arkansas's ANGELS Medicaid telehealth hub documented shifting very-low-birthweight deliveries to NICU hospitals without publishing cost-effectiveness [94]; HRSA's RMOMS rural networks improved first-trimester and postpartum visit rates without reporting cesarean, NICU, or cost results [95]. Regionalization plus readiness is standard-of-care logic supported by mechanism and observational data, not trial evidence, and should be presented as such.",
+    {
+     "h2": "3.7 Payment reform: what has and has not moved outcomes"
+    },
+    "The record on maternity episode bundles is poor and should discipline the design. Arkansas's perinatal episode excluded about half of Medicaid births, left cost per episode flat over seven years ($3,568 to $3,616), produced no differential cesarean change, saw the share of providers meeting the commendable threshold fall from 27% to 10%, and was phased out in 2021 [61]. Tennessee reported 9.2% savings per episode but never formally evaluated outcomes and waived risk-sharing in 2020 [62]. The Netherlands' integrated maternity bundles across six regions produced no change in maternal or child health after five years and only slightly reduced spending [38]. The CMS Transforming Maternal Health model is the most thoughtful current design, with pillars for midwives, birth centers, and doulas, low-risk cesarean reduction, and whole-person care, but its payment mechanics are still being built and Puerto Rico is not in it [63]. Pennsylvania's rural global budgets stabilized finances for some hospitals with mixed overall results and no evidence yet on preserving obstetric lines specifically [64].",
+    "The inference this paper draws is specific. Bundles attributed to the delivering physician cannot move a cesarean rate driven by prenatal scheduling culture and cannot pay for the fixed cost of readiness. Three payment instruments have better logic and better evidence: mode-neutral facility and professional payment for birth, which removes the marginal incentive; standing capacity payments for units that maintain 24-hour readiness, which solves the fixed-cost problem that per-case payment cannot; and a population-based per-pregnancy payment to an accountable entity that spans prenatal through twelve months postpartum and is indifferent to site of care, which funds midwives, doulas, and home monitoring out of the money that would otherwise buy physician visits and cesareans. Section 5 builds on these three.",
+    {
+     "h2": "3.8 Reproductive health beyond pregnancy"
+    },
+    "Outside pregnancy the evidence is stronger and the interventions cheaper. Thirty states and DC allow pharmacists to prescribe contraception [66]; Puerto Rico does not. Telehealth medication abortion, in a study of more than 6,000 patients, needed no follow-up care in 98% of cases with a 0.2% serious adverse event rate, equivalent to in-person care [67]; a quarter of US abortions are now provided this way, and Puerto Rico's constraint is provider supply, not law. HPV self-collection in clinical settings was FDA-approved in May 2024 and at-home self-collection in May 2025, and federal guidance now recommends offering it [68][69]; it requires no OBGYN and no speculum, bills under existing laboratory codes, and is the single highest-yield preventive intervention available to a system with 47 Vital-accepting gynecologists. Immediate postpartum long-acting contraception, when unbundled from the delivery payment as South Carolina did in 2012 and most states have since, raises uptake regardless of insurance and improves birth spacing. Puerto Rico's own Zika-era Z-CAN program expanded contraception access points from 13 to 139 sites and served 29,221 women in eighteen months, demonstrating that rapid island-wide reproductive health deployment is operationally possible here [90]. Fertility care remains uncovered, with about five reproductive endocrinologists and cycle costs of $10,000–18,000; a Senate bill to mandate coverage passed 18 to 5 in 2024 and died in the House [96].",
+    {
+     "h2": "3.9 Evidence scorecard"
+    },
+    "Table 2 ranks the models by strength of evidence, cost-effectiveness, the access gain they would deliver in Puerto Rico specifically, and the weight of preconditions they require. Evidence grades are A for randomized trials or Cochrane syntheses, B for strong quasi-experimental designs, C for observational or pre-post studies, and D for descriptive evidence.",
+    {
+     "table": {
+      "caption": "Table 2. Delivery and payment models ranked for Puerto Rico",
+      "header": [
+       "Model",
+       "Evidence",
+       "Cost-effectiveness",
+       "Access gain in PR",
+       "Preconditions"
+      ],
+      "rows": [
+       [
+        "Midwife continuity of care",
+        "A (cesarean RR 0.91, moderate certainty)",
+        "High: $1,700–2,400 saved per birth",
+        "High: the only scalable workforce",
+        "Heavy: licensure, privileges, parity, pipeline"
+       ],
+       [
+        "Alongside and freestanding midwifery units",
+        "B (Birthplace; Strong Start)",
+        "High: −$2,010 per Medicaid birth",
+        "Medium-high; multiparas first",
+        "Heavy: licensure, accreditation, transfer agreements"
+       ],
+       [
+        "Continuous labor support and doulas",
+        "A (cesarean RR 0.75; low quality)",
+        "High if uptake reached",
+        "Medium: uptake historically under 5%",
+        "Moderate: rate at or above $1,500, right of access"
+       ],
+       [
+        "Audit, feedback, second opinion, public reporting",
+        "A (−1.8 to −1.9 pp) plus B (California −3.2 pp; Brazil +13 pp vaginal)",
+        "Very high: near-zero marginal cost",
+        "Quality gain, not access",
+        "Light-moderate: data spine, payer leverage"
+       ],
+       [
+        "Mode-neutral (blended) birth payment",
+        "C (Minnesota mixed)",
+        "Unknown alone; strong in combination",
+        "Indirect",
+        "Moderate: ASES contracting, APR-DRG weights"
+       ],
+       [
+        "Tailored prenatal schedule with telehealth",
+        "A (OB Nest; small)",
+        "Neutral to negative on cost",
+        "High: substitutes for physician time",
+        "Light: decouple payment from visits"
+       ],
+       [
+        "Postpartum home BP monitoring",
+        "A (4 RCTs; null on readmission)",
+        "High on process; unproven on outcomes",
+        "High: all hypertensive births",
+        "Light: RPM code, nurse triage hub"
+       ],
+       [
+        "Regionalization plus obstetric readiness",
+        "C/D",
+        "Unknown; mechanism-based",
+        "High: 54 municipalities without OB",
+        "Moderate: transport, training, tele-OB"
+       ],
+       [
+        "CNM-led community maternity units",
+        "C (Scotland cohort)",
+        "Likely favorable",
+        "High for west, center, islands",
+        "Heavy: workforce, backup, licensure"
+       ],
+       [
+        "Maternity episode bundles (physician-attributed)",
+        "B (Arkansas null; Tennessee unevaluated)",
+        "Low demonstrated",
+        "None",
+        "Heavy"
+       ],
+       [
+        "Capacity payments and rural global budgets",
+        "C (Pennsylvania mixed)",
+        "Unknown",
+        "Indirect: keeps hubs open",
+        "Heavy"
+       ],
+       [
+        "Pharmacist, OTC, telehealth contraception; HPV self-collection",
+        "A/B",
+        "High",
+        "High",
+        "Light: scope-of-practice rules"
+       ],
+       [
+        "Immediate postpartum LARC unbundling",
+        "B",
+        "High",
+        "Medium",
+        "Light: DRG carve-out"
+       ],
+       [
+        "Nurse home visiting (NFP)",
+        "A",
+        "Medium: $1.48 per $1",
+        "Low: targeted",
+        "Moderate"
+       ],
+       [
+        "Group prenatal care",
+        "A/B mixed",
+        "Uncertain",
+        "Medium",
+        "Light"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "h1": "4. The Recommended Architecture",
+   "body": [
+    "The architecture has three tiers and a readiness layer that wraps all of them. It is designed for 15,000 births a year, for a physician workforce that will not grow, for a payer that will have less money after 2027, and for an island whose grid and roads fail every few years. It borrows the midwife-anchored community model from the United Kingdom, Scotland, New Zealand, and Sri Lanka, the birth-center integration standard from the National Academies, the hub-and-spoke regionalization logic from Levels of Maternal Care, and the transparency-plus-payment approach from California and Brazil. It does not borrow the New Zealand assumption that obstetric input is optional for first births, nor the mainland assumption that every hospital should deliver babies.",
+    {
+     "h2": "4.1 Design principles"
+    },
+    "Seven principles govern every subsequent choice. First, size for 15,000 births: capacity that assumes a rebound in fertility is capacity that will be paid for and closed. Second, pay for readiness separately from births: the fixed cost of 24-hour obstetric, anesthesia, and neonatal coverage is a public good and cannot be recovered from per-case payment at Puerto Rico's volume. Third, the default clinician for a low-risk pregnancy is a midwife and the default site of prenatal and postpartum care is the home or the community clinic; the hospital is where risk goes, not where pregnancy goes. Fourth, integration before scale: no expansion of out-of-hospital birth until licensure, transfer agreements, and coverage exist, because the evidence is unambiguous that unintegrated home birth harms first babies. Fifth, measure publicly: every hospital and every physician's cesarean rate, by Robson group, on a public dashboard, because measurement has moved behavior where price changes have not. Sixth, buy only what is cleared, coded, and evidenced; pilot the rest with an evaluation design attached before the first dollar is spent. Seventh, resilience is table stakes: every site that hosts maternity care has power and connectivity that survive a hurricane, or it is not a site.",
+    {
+     "h2": "4.2 Tier 0: Home and community care for every pregnancy"
+    },
+    "Tier 0 is where roughly 70% of pregnancies should receive essentially all of their prenatal and postpartum care and where every pregnancy begins. Enrollment happens at the moment of pregnancy confirmation, at a pharmacy, a federally qualified health center, a Centro de Diagnóstico y Tratamiento, or through a Plan Vital hotline, and it triggers three assignments within a week: a named midwife (or, during the transition years when midwives are scarce, a prenatal nurse working under a midwife-led protocol), a doula by 28 weeks, and a connected home monitoring kit. The kit is deliberately simple and cheap, on the order of $150 per pregnancy: a validated upper-arm blood pressure cuff, a scale, urine dipsticks, a thermometer, a pulse oximeter, and enrollment in a Spanish-language nurse hub reachable by WhatsApp, text, and voice 24 hours a day. The hub, staffed by nurses and midwives at the regional hubs described below, is the clinical brain of Tier 0; it reads every home measurement, triages every symptom, and decides who needs to be seen, where, and how fast.",
+    "The visit schedule follows the 2025 ACOG consensus rather than the legacy fourteen-visit model: eight to nine contacts for a low-risk pregnancy, with roughly half by video or phone and the in-person contacts delivered at the nearest FQHC or CDT by the midwife [48]. Puerto Rico's FQHC network, roughly twenty organizations operating on the order of a hundred sites with a presence in nearly every municipality, is the physical backbone; it already holds HRSA funding, sliding-fee obligations, and community trust, and Direct Relief has already fitted fifteen of its clinics with solar and storage [81]. Each FQHC and CDT site hosting prenatal care is equipped with an AI-guided handheld ultrasound probe. The Butterfly Gestational Age Tool, cleared by FDA in March 2026, allows a nurse or midwife with one day of training to date a pregnancy between 16 and 37 weeks with accuracy equal to a credentialed sonographer at a hardware cost of about $4,000 plus $420 a year [70][71][72]. It does not replace the 18–22 week anatomy survey, which is delivered at the hub or by a mobile sonography van on a fixed municipal circuit. Routine laboratory draws happen at the FQHC; syphilis screening each trimester and at delivery, already mandated by administrative order [35], becomes a tracked Tier 0 metric.",
+    "Risk stratification is continuous rather than a one-time triage. The hub reviews every enrollee's record at booking, at 20 weeks, at 28 weeks, at 36 weeks, and whenever a home measurement or symptom crosses a threshold, and moves the pregnancy up a tier when it does. Women with hypertension, diabetes, prior cesarean, multiple gestation, or other risk factors, roughly 30% of the total, receive obstetric or maternal-fetal medicine co-management by video from the hub with in-person visits at the hub as needed, while keeping their midwife and doula. Group prenatal care in the CenteringPregnancy format is offered at every FQHC for those who want it, without any assumption that it will lower preterm birth. First-time mothers with high social risk are referred to a nurse home-visiting program modeled on Nurse-Family Partnership, sized to perhaps 1,000 families a year [92].",
+    "The postpartum half of Tier 0 is, in cost-effectiveness terms, the most valuable and most neglected. Every woman receives a home visit by her midwife or a maternity nurse within 48 hours of discharge and at least two more in the first ten days, adapted from the Dutch kraamzorg model of intensive early postpartum home support, which this paper cites from general knowledge rather than from a source verified in this research effort. Women with hypertensive disorders keep the blood pressure cuff and transmit readings twice daily for ten days to the hub, which manages medication by phone under protocol; the evidence shows this raises measurement from 44% to 92% of women and, when paired with a nurse who can act on the reading, avoids readmissions, and the hub is what prevents the doubling of emergency visits seen in trials without one [50][51]. Postpartum depression screening, already required and paid under Plan Vital [2], happens at the home visit and at well-child visits, with a warm hand-off to behavioral health by video. Contraception counseling begins prenatally and immediate postpartum long-acting contraception is available at every hub and community unit. Lactation support is delivered in the home and by video. Coverage continues for twelve months.",
+    {
+     "h2": "4.3 Tier 1: Community Maternity Units and alongside midwifery units"
+    },
+    "Tier 1 is where low-risk labor and birth happen for women who choose it and qualify for it, in two forms. Alongside midwifery units are midwife-led birth suites located inside or adjacent to each regional hub, sharing its walls and its obstetric backup, and they are the recommended setting for low-risk first births, where Birthplace found no excess risk in alongside units but did find one at home [41]. Community Maternity Units are freestanding, midwife-led birth centers in the deserts, modeled on Scotland's units and Norway's fødestuer: no obstetrician on site, a written transfer protocol with a hub within 30 to 45 minutes by road, an ambulance agreement, tele-obstetric consultation on demand, and eligibility criteria that steer first births toward the alongside units and reserve the freestanding units mainly for women who have given birth before [58]. Both forms offer water immersion, freedom of movement, intermittent auscultation, a doula and a companion, delayed cord clamping, skin-to-skin, and rooming-in as the default rather than the exception. Both are licensed under the Birth Center chapter of the legislation proposed in Section 6, accredited by the Commission for the Accreditation of Birth Centers, and paid a facility rate under Plan Vital as federal law already requires for licensed birth centers.",
+    "Five to seven Community Maternity Units are enough. Candidate locations follow the deserts and the closures: the northwest around Aguadilla and Moca, where two units have closed; the west-central mountains around Utuado, Jayuya, or Adjuntas; the southeast around Guayama; the east around Fajardo, where the Caribbean Medical Center still delivers with two obstetricians and could evolve into a hybrid; and, once volume justifies it, the north-central corridor if Arecibo's status is not resolved. Each unit needs roughly six to eight midwives, two to three maternity nurses, and a nurse-manager, and can handle 150 to 400 births a year. Their economics are favorable precisely because they do not carry the 24-hour physician and anesthesia standby that sinks a small hospital unit; the Strong Start evaluation's $2,010 saving per Medicaid birth is the relevant benchmark [42]. They are also, not incidentally, the only realistic way to bring birth back to the west and center of the island, because no hospital will reopen a delivery ward there at current volumes.",
+    {
+     "h2": "4.4 Tier 2: Regional Maternity Hubs"
+    },
+    "Tier 2 concentrates intrapartum obstetric capability into six to eight Regional Maternity Hubs, each handling 1,500 to 3,000 births a year, which is the volume at which 24-hour laborist, in-house anesthesia, and Level II or III neonatal coverage can be staffed and justified. Geographically the hubs map onto the metropolitan area (two or three, including the University District Hospital complex as the Level IV referral center), Bayamón, Caguas, Ponce, Mayagüez, the Arecibo–Manatí corridor, and Humacao. Designation should be competitive and conditional, run by ASES and the Departamento de Salud jointly, against published criteria: planned volume, 24-hour obstetric hospitalist coverage, in-house anesthesia, neonatal level, an alongside midwifery unit on site, midwives with full privileges, vaginal birth after cesarean offered, doula access guaranteed, the Alliance for Innovation on Maternal Health hemorrhage and hypertension bundles and the E-MOTIVE protocol implemented, monthly Robson-classified reporting, Baby-Friendly designation or a timeline to it, and a duty to staff the island-wide tele-obstetric hub on rotation.",
+    "The hubs are the only tier where the paper recommends spending money on obstetricians, and it does so through a salaried laborist model funded by the standing capacity payment described in Section 5, not through per-delivery fees. A laborist model changes the job on offer from 280 births of unpredictable private call to a shift-based hospital position with a predictable income, which is the only version of the job Puerto Rico has any realistic chance of recruiting into, and observational evidence associates laborist coverage with lower induction and cesarean rates. The hubs also house the maternal-fetal medicine capacity, the anatomy-scan sonography service, the tele-obstetric and tele-neonatal consult line, the nurse hub for Tier 0, the training simulation program, and the maternity lodging described below. Consolidation to this footprint is defensible on the evidence, which finds no infant mortality penalty from closures where distance is moderate, provided the readiness layer is funded [56]; without it, consolidation is the unplanned collapse the island is already experiencing.",
+    {
+     "h2": "4.5 The readiness layer: every emergency department, every ambulance, every island"
+    },
+    "Between 3% and 5% of births in a consolidated system will still arrive at the wrong door: an emergency department without obstetrics, an ambulance, a CDT, a home without a planned attendant. The readiness layer exists for them, and it is cheap relative to what it prevents. Every hospital emergency department and every CDT receives the AIM Obstetric Emergency Readiness kit, quarterly simulation training in imminent birth, shoulder dystocia, hemorrhage, eclampsia, and neonatal resuscitation, a stocked obstetric emergency cart, and a direct line to the tele-obstetric hub [60]. Every EMS unit receives obstetric and neonatal training and a birth kit. Every CDT and both island facilities stock tranexamic acid, uterotonics, calibrated blood-collection drapes, and, newly possible since FDA licensure in July 2026, freeze-dried plasma that stores at room temperature [77][78]; the E-MOTIVE bundle, proven in a 210,000-woman cluster trial and cost-effective, becomes a Departamento de Salud administrative order for every site that could conceivably manage a birth.",
+    "The tele-obstetric hub is a single island-wide service, staffed 24 hours a day by an obstetric hospitalist and a neonatologist on video, rotated among the Regional Maternity Hubs and funded through their capacity payments. It supports the Community Maternity Units, the emergency departments, EMS, the islands, and the Tier 0 nurse hub. The evidence for provider-to-provider obstetric telehealth is thin on outcomes but the mechanism is sound and the cost is low [75][76]. A maternal transport protocol with defined time standards, including a standing air-transfer agreement for Vieques and Culebra, completes the layer. Finally, a maternity lodging program, the posada materna, offers a voucher for lodging near a hub from 37 weeks for any woman who lives more than 45 minutes from her hub or on either island; at perhaps 300 women a year and $1,500 each, it costs less than a single averted neonatal intensive care admission a month.",
+    {
+     "h2": "4.6 Vieques and Culebra"
+    },
+    "The islands receive the full Tier 0 package with three additions. The new Vieques hospital and the Culebra CDT are each equipped as a readiness site of the highest class: a permanent midwife or obstetric nurse on staff, the handheld AI ultrasound, remote non-stress testing capability for high-risk surveillance, freeze-dried plasma and the full hemorrhage bundle, a birthing room maintained for the unplanned delivery, and a dedicated video link to the tele-obstetric hub. Every pregnant resident is enrolled in the posada materna program by default with relocation to Fajardo or the Carolina hub planned from 37 weeks, ferry and lodging paid, and a companion covered. The twice-weekly visiting obstetrician is replaced by a weekly midwife clinic plus continuous video co-management, which is more contact, not less. A planned freestanding birth unit on Vieques is not recommended: the 60 to 80 births a year across both islands and the transfer time by sea rule it out on the integration standard, and the honest position is that Vieques will have emergency birth capability and superb prenatal and postpartum care, not planned births, until air transfer is guaranteed and volume is proven. The islands are also the right place for the one frontier pilot this paper endorses, a beyond-visual-line-of-sight drone corridor from Fajardo for blood products and medications, once the FAA's Part 108 rule, pending as of September 2026, is final [79][80].",
+    {
+     "h2": "4.7 Reproductive health without an OBGYN"
+    },
+    "Most of women's reproductive health care does not need a gynecologist, and in a system with 47 Vital-accepting specialists it cannot have one. Contraception moves to pharmacies: pharmacist prescribing of hormonal contraception under a statewide protocol, as 30 states now allow [66], Plan Vital coverage of over-the-counter oral contraception without a prescription, and telehealth prescribing with mail delivery. Long-acting methods are placed at every FQHC by trained nurses and midwives, and immediately postpartum at every hub and community unit, with the device payment carved out of the birth DRG so the hospital is not penalized for placing it. Cervical cancer screening moves to self-collection: an HPV swab handed to the patient at any FQHC, pharmacy, or WIC office, billed under existing laboratory codes, with positive results routed to the hub for colposcopy [68][69]. Sexually transmitted infection testing follows the same pattern, with over-the-counter PCR tests now FDA-authorized and syphilis screening in pregnancy enforced as a tracked metric given the congenital syphilis surge [35]. Medication abortion by telehealth, legal and evidenced as equivalent to in-person care [67], is a matter of provider capacity rather than law, and the tele-obstetric hub's roster should include clinicians willing to provide it. Fertility care is the one area where the paper proposes only a modest step, a Plan Vital pilot of diagnostic work-up and ovulation induction, because IVF coverage at $10,000–18,000 a cycle cannot be justified ahead of the maternity architecture on a capped budget [96].",
+    {
+     "h2": "4.8 A Puerto Rico standard for respectful birth"
+    },
+    "The question asked was not only about access and cost but about the birthing experience. The evidence is that the same interventions that lower cost and intervention also produce the experiences women rate highest: a known midwife, continuous support, freedom of movement, a birth setting scaled to the person rather than to the operating room [36][45]. The architecture therefore embeds a Puerto Rico Standard for Respectful Maternity Care as a condition of payment for every hub and unit: a companion and a doula at every birth including cesareans, which is what PS 1459 seeks to legislate [16]; informed consent for induction and cesarean using a shared decision aid in Spanish; vaginal birth after cesarean offered at every hub; intermittent auscultation and water immersion available for low-risk labor; delayed cord clamping, immediate skin-to-skin, and rooming-in as defaults; and an independent maternity ombudsperson within the Departamento de Salud to receive and publish complaints, which achieves most of what the failed obstetric violence bill sought without creating a new cause of action that the Legislature has already rejected."
+   ]
+  },
+  {
+   "h1": "5. Paying for It: Payment Architecture and Budget",
+   "body": [
+    "Three payment instruments carry the architecture, and none of them is the physician-attributed episode bundle whose record Section 3.7 reviewed. Much of what follows can be done by ASES through its managed-care contracts and its APR-DRG weight-setting authority without legislation, which matters because the Legislature has so far blocked transparency measures and because the 76% federal match expires in September 2027.",
+    {
+     "h2": "5.1 Mode-neutral payment and public reporting"
+    },
+    "The APR-DRG transition that Plan Vital began on 1 October 2025 and must complete by July 2027 is the opening [21]. ASES should set the relative weight for an uncomplicated cesarean without a documented medical indication equal to the weight for an uncomplicated vaginal birth, or adopt a single blended birth rate, so that the hospital's revenue is indifferent to mode; and it should require its managed-care organizations to pay physicians a single global obstetric fee regardless of mode, with the fee level raised to at least the 75%-of-Medicare floor that federal law already requires and verified in the annual access report to Congress. Private insurers should be brought to the same structure through the Oficina del Comisionado de Seguros, since the private cesarean rate is the highest of all. Payment neutrality alone has a weak record; it is the necessary precondition for the second half, which is measurement. Every hospital and every delivering clinician reports every birth monthly by Robson group, which is the content of the stalled PC 669 [32]; ASES writes the requirement into its MCO contracts as a condition of network participation so that it does not depend on the Legislature, and publishes a dashboard by hospital and by physician. A mandatory second opinion for any non-urgent primary cesarean, the one intervention with high-certainty trial evidence, becomes a network condition [52]. Hospitals that reach a low-risk cesarean trajectory, from 47% to 40% in year two to 30% in year five, share in the savings; those that do not lose hub designation.",
+    {
+     "h2": "5.2 Standing capacity payments for hubs"
+    },
+    "Each designated Regional Maternity Hub receives an annual capacity payment, in the range of $1.5–2.5 million, that pays for the 24-hour obstetric hospitalist line, in-house anesthesia availability, neonatal coverage, the alongside midwifery unit, tele-obstetric duty, and simulation training, independent of how many births occur. This is the instrument that ends the closure spiral, because it pays for the thing per-case payment cannot. It is financed as an all-payer obstetric readiness assessment, in the manner of a trauma fund, levied through ASES on the Plan Vital capitation and through the insurance commissioner on private and Medicare Advantage plans in proportion to covered births, so that every payer whose members might arrive at a hub in labor contributes to keeping it open. Pennsylvania's rural global budgets are the nearest precedent and their results are mixed [64]; the design here is narrower, obstetric-only, and conditional on performance, which addresses the main criticism that global budgets pay for capacity without asking what it delivers.",
+    {
+     "h2": "5.3 A per-pregnancy population payment to Maternity Homes"
+    },
+    "Tier 0 and Tier 1 are financed through a single risk-adjusted per-pregnancy payment, from confirmation through twelve months postpartum, to an accountable Maternity Home: a consortium of an FQHC network, a Regional Maternity Hub, midwives, doulas, and the community units in its region. The payment covers the midwife, the doula, the home kit and nurse hub, prenatal and postpartum visits in any setting, home visits, remote monitoring, contraception, and behavioral health, and it is indifferent to whether a contact happens in a clinic, at home, or on video. It does not initially include the intrapartum facility payment, which continues under the mode-neutral DRG, because bundling the birth into a physician-attributed episode is what failed in Arkansas and Tennessee [61][62]. Two design features distinguish this from those failures: it is population-based, covering every Plan Vital pregnancy in a region rather than the half that clears an exclusion list, and it is site-neutral, so the money that today buys fourteen physician visits and a cesarean can instead buy a midwife, a doula, and a home monitoring program. A quality withhold tied to first-trimester enrollment, syphilis screening, postpartum visit completion, low-risk cesarean rate, and patient-reported experience is released annually. The Netherlands' experience is the caution: integration without changing who delivers care and where changed nothing in five years [38]; this payment is the mechanism for changing both.",
+    {
+     "h2": "5.4 Parity, doula rates, remote monitoring, and contraception"
+    },
+    "Four smaller payment changes are enabling conditions. Nurse-midwives and, once licensed, direct-entry midwives are paid 100% of the physician fee for the same service, as roughly half the states already do [40]. The doula benefit that March of Dimes records as existing is made real: a rate of at least $1,500 per pregnancy covering prenatal visits, labor attendance, and postpartum visits, direct enrollment without physician referral, a state-run training and certification pathway, and a statutory right of access to the delivery room including for cesarean birth [16][46]. ASES adopts the remote patient monitoring codes, including the new 2-to-15-day code that fits the postpartum window, so the Tier 0 kit has a fee-for-service path for providers outside the Maternity Home payment [73]. Immediate postpartum long-acting contraception is carved out of the birth DRG and paid separately. Live-video parity is extended to audio-only and asynchronous contacts for maternity care, since a mountain municipality after a storm has a phone signal before it has a video signal [22].",
+    {
+     "h2": "5.5 Order-of-magnitude budget"
+    },
+    "Table 3 gives an order-of-magnitude budget at steady state, after the four-year build, across all payers, with the Plan Vital share at roughly two-thirds. Every line is an estimate built from the unit costs and volumes stated in Appendix A, not a claims-based projection; ASES holds the claims data that would replace these estimates within weeks, and the first verification item in Section 10 is to run them. The figures are meant to establish scale and direction, which they do robustly: the architecture costs a fraction of 1% of the public health plan, and its offsets are of the same order as its costs.",
+    {
+     "table": {
+      "caption": "Table 3. Steady-state incremental cost and offsets, all payers, order of magnitude",
+      "header": [
+       "Component",
+       "Basis",
+       "Annual cost (range)"
+      ],
+      "rows": [
+       [
+        "Midwifery workforce (Tier 0 and Tier 1), phased to ~200 midwives",
+        "200 FTE at ~$150k loaded; partly substitutes for physician prenatal and delivery fees",
+        "$25–32M gross; ~$10–15M net of substitution"
+       ],
+       [
+        "Doula benefit",
+        "~60% uptake of ~18,000 births at $1,500",
+        "$14–17M"
+       ],
+       [
+        "Home monitoring kit and nurse hub",
+        "$150 per pregnancy plus 25 FTE hub staff",
+        "$5–7M"
+       ],
+       [
+        "Hub capacity payments",
+        "7 hubs at $1.5–2.5M",
+        "$10–18M"
+       ],
+       [
+        "Community Maternity Units (operations)",
+        "5–6 units at ~$1.5M net of facility revenue",
+        "$6–9M"
+       ],
+       [
+        "Tele-obstetric and tele-neonatal hub",
+        "24-hour physician line plus platform",
+        "$2–3M"
+       ],
+       [
+        "Readiness layer (kits, drugs, plasma, simulation, EMS)",
+        "~60 sites; recurring after one-time $2–3M",
+        "$1–2M"
+       ],
+       [
+        "Posada materna lodging and transport",
+        "~300 women at ~$1,500",
+        "$0.5M"
+       ],
+       [
+        "Nurse home visiting, targeted",
+        "~1,000 families at ~$5,000 (WSIPP cost basis pro-rated)",
+        "$4–6M"
+       ],
+       [
+        "Data spine: Robson dashboard, MMRC, PRAMS replacement, unified prenatal record",
+        "Staff and platform",
+        "$1.5–2.5M"
+       ],
+       [
+        "Education pipeline: nurse-midwifery program, FM-OB fellowship, residency expansion, preceptors",
+        "Recurring program cost",
+        "$3–5M"
+       ],
+       [
+        "Technology capital (probes, solar, satellite), one-time",
+        "~100 probe kits at $6k; ~40 resilience kits at $50k",
+        "$2.5–3M one-time"
+       ],
+       [
+        "Gross incremental, steady state",
+        "",
+        "$45–70M"
+       ],
+       [
+        "Offset: cesarean reduction, 20 points on 18,000 births",
+        "3,600 avoided at $2,000–4,000 plus downstream",
+        "−$10–20M"
+       ],
+       [
+        "Offset: birth-center and midwife-led pathway savings",
+        "~3,000 low-risk births at ~$2,000 (Strong Start basis)",
+        "−$6M"
+       ],
+       [
+        "Offset: avoided readmission, NICU, and physician-visit substitution",
+        "Conservative",
+        "−$4–9M"
+       ],
+       [
+        "Net incremental, steady state",
+        "",
+        "$25–45M (under 1% of Plan Vital)"
+       ]
+      ]
+     }
+    },
+    "Two points about the money deserve emphasis. First, with the federal match at 76% through 30 September 2027, the Commonwealth's own share of the Plan Vital portion of the build is roughly a quarter of two-thirds of the figures above, on the order of $5–8 million a year; there will never be a cheaper moment to build. Second, after the cliff, when the match falls to 55% and the allotment shrinks, a system that has already lowered its cost per birth by several thousand dollars is the only maternity system Puerto Rico will be able to afford. The architecture is a hedge against the cliff, not a casualty of it.",
+    {
+     "h2": "5.6 The federal track"
+    },
+    "Everything above can be started with Commonwealth authority, but the ceiling is federal, and four asks should run in parallel from the first month. The first is existential and not specific to maternity: extension of the FY2027 allotment and 76% match, without which the entire Plan Vital program contracts by a quarter or more [20]. The second is a territory-specific maternal health model from the CMS Innovation Center, either a Puerto Rico track of the Transforming Maternal Health model, which currently excludes territories and offers up to $17 million per state over ten years for exactly the midwife, birth-center, doula, and low-risk cesarean pillars proposed here [63], or a Section 1115 demonstration that authorizes the Maternity Home payment, the capacity payment, and twelve-month postpartum coverage under the capped allotment. The third is HRSA: a Rural Maternity and Obstetrics Management Strategies network application for the west and the islands, State Maternal Health Innovation funding, Teaching Health Center funding for a family medicine obstetrics fellowship, and National Health Service Corps site designation for every Community Maternity Unit and hub laborist position. The fourth is the replacement of the surveillance money CDC has withdrawn, through direct appropriation or Title V flexibility, so that the Maternal Mortality Review Committee and a PRAMS-equivalent survey continue [33][34]. Outside HHS, the Federal Communications Commission and USDA broadband programs fund the connectivity Tier 0 depends on, FEMA's mitigation programs fund clinic power resilience, and the Federal Aviation Administration is the counterparty for a Vieques drone corridor. Puerto Rico's exclusion from the $50 billion Rural Health Transformation Program should be raised in every one of these conversations as the inequity it is [23]."
+   ]
+  },
+  {
+   "h1": "6. Workforce and Legal Reforms",
+   "body": [
+    "The architecture cannot stand on the current legal foundation. Four reforms are required, and the first is the one on which everything else depends.",
+    {
+     "h2": "6.1 A Midwifery Practice and Birth Center Act"
+    },
+    "Puerto Rico needs a single statute that does five things. It grants nurse-midwives licensed under Ley 254-2015 independent practice authority, full prescriptive authority within their scope, and a right to hospital admitting and clinical privileges at any facility receiving Plan Vital funds, replacing the collaborative-protocol requirement that today lets a hospital or a physician group veto their practice [14]. It creates a second license, the licensed midwife, for direct-entry practitioners meeting the International Confederation of Midwives' education standards or holding the Certified Professional Midwife credential, as 37 states do, with a defined scope limited to low-risk pregnancy and birth, mandatory integration into the transfer and data systems, and coverage under Plan Vital [40]. It creates a birth center license with Commission for the Accreditation of Birth Centers accreditation as the quality floor, a 30-to-45-minute transfer standard, and an obligation on hospitals receiving public funds to enter transfer agreements they cannot unilaterally refuse. It creates a doula registry and certification pathway and a statutory right of access to labor, delivery, and cesarean rooms. And it establishes, or funds a partner to establish, a nurse-midwifery graduate program in Puerto Rico within 24 months, most quickly by contracting a distance-education provider such as Frontier Nursing University to deliver the didactic component while the Commonwealth funds clinical preceptor sites at the hubs and community units, since preceptorship rather than coursework is the binding constraint everywhere.",
+    "The direct-entry license carries a structural opportunity no state has. Puerto Rico is the only US jurisdiction that can plausibly recruit Spanish-speaking, university-trained midwives at scale from systems where midwifery is a mature profession: Chile's matronas, Spain's matronas, Mexico's licenciadas en partería, Argentina's obstétricas. An international equivalency pathway in the statute, paired with employer-sponsored immigration where required and a Commonwealth recruitment office, could bring a hundred experienced midwives to the island in the time it takes to graduate the first local cohort. The immigration constraints are real for non-US citizens and the pathway must be built carefully, but Puerto Rico's language and culture make it a destination no mainland state can match, and the paper recommends treating this as a first-order workforce strategy rather than a supplement.",
+    {
+     "h2": "6.2 Licensure compacts and cross-border telehealth"
+    },
+    "Puerto Rico belongs to neither the Nurse Licensure Compact, which the Virgin Islands has enacted and Guam has partly implemented, nor the Interstate Medical Licensure Compact, which covers 44 states, DC, and Guam [83][84]. Joining both is the cheapest workforce lever the Legislature has. The Nurse Licensure Compact lets mainland nurse-midwives and nurses practice in Puerto Rico, in person or by telehealth, on their home license; the medical compact does the same for maternal-fetal medicine and obstetric hospitalists staffing the tele-obstetric hub from the mainland. Ley 8-2025 removed the separate telemedicine certification for Puerto Rico-licensed providers but left out-of-jurisdiction clinicians outside the door [27]; a permanent telehealth registration for compact-state licensees closes the gap. The paper anticipates the objection from the Junta de Licenciamiento and the Colegio de Médicos that compacts erode local control, and answers it: the jurisdiction with 63 delivering obstetricians has no control left to erode.",
+    {
+     "h2": "6.3 Liability: a birth-injury fund and clinical safe harbors"
+    },
+    "Obstetrics carries the highest liability exposure of any specialty and Puerto Rico has extended protection only to public institutions and trainees [28]. Three options are available and are not mutually exclusive. The first and strongest is a no-fault birth-injury compensation fund on the model of Florida's NICA and Virginia's program, which pays lifetime care costs for neurologically injured infants regardless of fault, removes the largest category of obstetric claims from the tort system, and is financed by an assessment on every birth, every obstetric provider, and every insurer; the design must set benefits generously enough to avoid the criticism those programs have drawn for underpaying families. The second is to extend the Ley 94-2023 protection to midwives, obstetricians, family physicians, and nurses providing maternity care to Plan Vital enrollees or staffing the readiness layer, on the same rationale of retention that the Legislature accepted for trainees. The third is essential regardless of the first two: explicit clinical safe-harbor amendments to Ley 183-2025 and Ley 18-2026 stating that management of miscarriage, ectopic pregnancy, previable rupture of membranes, and lethal fetal anomaly according to accepted clinical standards is not within the reach of those statutes, so that the personhood language stops functioning as an unquantified push factor on a workforce already leaving [29][30]. Ramphis will form his own view of the constitutional and drafting questions each option raises; the research finding here is that the liability environment is a documented driver of physician emigration and that the Legislature has already accepted the principle of protection for retention's sake.",
+    {
+     "h2": "6.4 Pipelines: residency, fellowship, Conrad 30, Act 60"
+    },
+    "Four pipeline actions round out the workforce plan. The UPR obstetrics residency expands from five to eight positions with a Plan Vital service commitment attached to the additional slots, financed through HRSA teaching health center or Commonwealth funds; this is slow but signals permanence [12]. A family medicine obstetrics fellowship is created at one or more of the island's medical schools, producing family physicians who can manage low-risk birth and cesarean at hubs and community units, the workforce that keeps rural obstetrics alive on the mainland [59]. The Commonwealth's Conrad 30 allocation for J-1 physician visa waivers is directed to obstetrics, family medicine with obstetrics, and anesthesia in designated desert municipalities; whether Puerto Rico currently uses its allocation at all could not be verified and is a verification item. And the Act 60 Chapter 2 physician tax decree, which the Fiscal Oversight Board froze in 2024 with more than 2,300 applications stalled [26][98], is reopened narrowly for obstetricians, anesthesiologists, nurse-midwives, and neonatologists who commit to hub or community-unit service and Plan Vital participation; a hundred decrees at the Board's own cost estimate is a rounding error against the closures they would prevent. Loan repayment through National Health Service Corps designation of every maternity site completes the package."
+   ]
+  },
+  {
+   "h1": "7. Technology Stack: What to Buy Now, Pilot, and Ignore",
+   "body": [
+    "The instruction to assume anything is possible was taken seriously in the research: the FDA device databases were queried directly for every candidate technology, and the results are sobering in a useful way. A handful of technologies are cleared, cheap, coded, and evidenced today and would change access within a year. A second group is promising and should be piloted with an evaluation attached. A third group is marketed heavily and should be ignored until the evidence changes. Table 4 sorts them; the text explains the sort.",
+    {
+     "h2": "7.1 Buy now"
+    },
+    "Five technologies clear every bar. AI-guided handheld obstetric ultrasound, specifically the Butterfly Gestational Age Tool cleared in March 2026 on the iQ3 probe, lets a nurse date a pregnancy between 16 and 37 weeks with sonographer-equivalent accuracy after a day of training, at about $4,000 per device [70][71][72]; the constraint is not the device but the billing rule that requires physician interpretation, which ASES can resolve with a nurse-performed dating code. HPV self-collection in clinical settings is FDA-approved, federally recommended, needs no gynecologist, and bills under existing codes [69]. The E-MOTIVE postpartum hemorrhage bundle, built on a $1–2 calibrated drape and tranexamic acid, is proven in a cluster trial of 210,000 women and cost-effective [77]. Freeze-dried plasma, licensed in July 2026, stores at room temperature and is the first hemorrhage-stabilization product that makes sense for an island CDT [78]. And solar-plus-storage with satellite connectivity at every maternity site, at roughly $30,000–60,000 per site including the probe, is the precondition for everything else on an island whose grid fails; Direct Relief has already shown the model at fifteen clinics [81].",
+    {
+     "h2": "7.2 Pilot with evaluation"
+    },
+    "Six items deserve pilots because the mechanism is sound, the cost is moderate, and the evidence is incomplete or vendor-generated. Home blood pressure monitoring in the postpartum window, paired with a nurse hub, is cheap and raises measurement rates dramatically, but the randomized evidence on readmission is null and emergency visits rose without a hub [50][51]; pilot it with the hub and measure emergency visits. A managed-care-contracted virtual maternity program of the kind Pomelo Care runs for Medicaid plans in six states shows a 24% reduction in preterm birth in a vendor-authored propensity analysis of 3,785 women [74]; Plan Vital's managed-care organizations can contract one inside existing capitation and should demand a Puerto Rico-specific comparison group. The tele-obstetric and tele-neonatal hub has case-series evidence and a randomized neonatal trial under way [75]; build it and measure activation, transfer, and outcomes. Remote non-stress testing with FDA-cleared wearable monitors is technically ready for high-risk surveillance on the islands, but the leading vendor went bankrupt in 2024 [89], so contract for it with vendor-failure provisions. Placental growth factor testing for suspected preeclampsia is FDA-authorized, avoids admissions, and every cost study reports savings, but it needs a hospital immunoassay platform and a decision pathway [97]; deploy it at hubs and count the avoided admissions. And a beyond-visual-line-of-sight drone corridor from Fajardo to Vieques and Culebra for blood and medications should be designed now with the FAA so it can fly when Part 108 is final [80]; the Rwanda data on hemorrhage deaths are dramatic but uncontrolled [79].",
+    {
+     "h2": "7.3 Watch, do not buy"
+    },
+    "Five items are heavily marketed and should not receive public money on current evidence. Continuous glucose monitoring for gestational diabetes changed birth weight by 123 grams across eleven trials and nothing else [87]. Cell-free RNA preeclampsia prediction is a $1,850 laboratory-developed test validated in women over 35 without risk factors and has no Medicaid path. AI interpretation of fetal heart rate tracings was null in the one large randomized trial of 46,000 women and the 2026 evidence is vendor-authored labeling equivalence [88]. Large-language-model patient triage agents answer questions acceptably in studies but no authorized obstetric triage device exists, and the nurse hub should use such tools as drafting aids under human review rather than as decision-makers. Robotic tele-ultrasound has excellent reliability in a 46-patient Norwegian pilot and no US clearance. The artificial womb, which the instruction to leave no stone unturned obliges the paper to mention, has an FDA advisory committee record and no human trial; it is a horizon item with no bearing on a ten-year plan.",
+    {
+     "h2": "7.4 The data spine"
+    },
+    "None of the payment or quality mechanisms in Section 5 works without data the island does not currently collect or publish. The spine has five parts. A unified prenatal record on the Puerto Rico Health Information Exchange, which already connects more than a million residents and has committed to a national qualified network, using standard interfaces so that the FQHC, the midwife's tablet, the hub, and the emergency department see the same record [82]. Mandatory monthly Robson-classified birth reporting from every facility and clinician into a public dashboard, which is the content of PC 669 delivered through ASES contracts. A locally funded Maternal Mortality Review Committee with published annual findings, replacing the federal ERASE MM money that lapsed in 2025 [33][99]. A PRAMS-equivalent postpartum survey run by the Departamento de Salud or a university partner, replacing the CDC program dismantled in 2025 [34]. And a maternal early warning system in every hub and community unit, with hypertension and hemorrhage bundles, which is standard practice elsewhere and largely absent here. Predictive risk models trained on mainland data should not be deployed without local validation; a population with a 50% cesarean baseline and a different risk mix will break them.",
+    {
+     "table": {
+      "caption": "Table 4. Technology scorecard for Puerto Rico, September 2026",
+      "header": [
+       "Technology",
+       "Regulatory and evidence status",
+       "Unit cost",
+       "Puerto Rico fit",
+       "Decision"
+      ],
+      "rows": [
+       [
+        "AI-guided handheld ultrasound (gestational age)",
+        "510(k) March 2026; one prospective study, n=400",
+        "~$4,000 plus $420/yr",
+        "Very high",
+        "Buy"
+       ],
+       [
+        "HPV self-collection in clinic",
+        "FDA approved May 2024; strong evidence; existing codes",
+        "$30–60 per test",
+        "Very high",
+        "Buy"
+       ],
+       [
+        "E-MOTIVE hemorrhage bundle",
+        "Cluster RCT n=210,000; cost-effective",
+        "$1–2 drape plus drugs",
+        "Very high",
+        "Buy"
+       ],
+       [
+        "Freeze-dried plasma",
+        "FDA licensed July 2026",
+        "Unknown; adult label",
+        "High for islands and CDTs",
+        "Buy"
+       ],
+       [
+        "Solar, storage, satellite kit",
+        "Operational; Direct Relief precedent",
+        "$30,000–60,000 per site",
+        "Very high",
+        "Buy"
+       ],
+       [
+        "Postpartum home BP with nurse hub",
+        "4 RCTs, null on readmission; strong process gains",
+        "$30–60 cuff plus ~$100/month codes",
+        "High with hub",
+        "Pilot"
+       ],
+       [
+        "MCO-contracted virtual maternity program",
+        "Vendor-authored cohort; large effect sizes",
+        "Per-member fee",
+        "High",
+        "Pilot"
+       ],
+       [
+        "Tele-obstetric and tele-neonatal hub",
+        "Case series; RCT under way",
+        "$2–3M/yr",
+        "High",
+        "Pilot"
+       ],
+       [
+        "Remote non-stress testing wearables",
+        "510(k) cleared; feasibility evidence; vendor risk",
+        "Undisclosed",
+        "Medium (islands)",
+        "Pilot"
+       ],
+       [
+        "sFlt-1/PlGF preeclampsia test",
+        "De Novo 2023 and 510(k) 2025; savings in all cost studies",
+        "Lab test; hospital platform",
+        "Medium (hubs)",
+        "Pilot"
+       ],
+       [
+        "Drone corridor Fajardo–Vieques–Culebra",
+        "FAA Part 108 pending; uncontrolled Rwanda data",
+        "Undisclosed",
+        "Medium, 2–4 years",
+        "Pilot (design now)"
+       ],
+       [
+        "Mobile prenatal and sonography van",
+        "Attendance evidence only",
+        "~$250,000–500,000 capital",
+        "Medium",
+        "Pilot"
+       ],
+       [
+        "Continuous glucose monitoring for GDM",
+        "11 RCTs; no outcome gain",
+        "$70–150/month",
+        "Low",
+        "Do not buy"
+       ],
+       [
+        "Cell-free RNA preeclampsia prediction",
+        "Laboratory-developed test; narrow validation",
+        "$1,850",
+        "Low",
+        "Do not buy"
+       ],
+       [
+        "AI fetal heart rate interpretation",
+        "Large RCT null; no autonomous clearance",
+        "Bundled",
+        "Low",
+        "Do not buy"
+       ],
+       [
+        "LLM triage agents",
+        "No authorized device",
+        "Low",
+        "Drafting aid only",
+        "Do not buy as decision-maker"
+       ],
+       [
+        "Robotic tele-ultrasound",
+        "Not cleared; n=46 pilot",
+        "Unknown",
+        "Low, 3–5 years",
+        "Watch"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "h1": "8. Sequencing",
+   "body": [
+    "The sequence is driven by two clocks: the July 2027 end of the APR-DRG transition, which is when mode-neutral weights must be locked, and the 30 September 2027 expiry of the 76% federal match, after which every dollar of build costs the Commonwealth nearly twice as much. It is also driven by the observation that the most valuable early actions require no legislation, which insulates the first year from the Legislature's record on transparency bills.",
+    {
+     "table": {
+      "caption": "Table 5. Sequencing by phase and acting authority",
+      "header": [
+       "Phase",
+       "Actions",
+       "Acting authority"
+      ],
+      "rows": [
+       [
+        "Months 0–6: executive actions and design",
+        "Release Vital obstetric payment data; set mode-neutral APR-DRG weights and single global fee; write Robson reporting, second-opinion, doula access, and midwife parity into MCO contracts; adopt RPM and audio-only codes; carve out postpartum LARC; issue E-MOTIVE and readiness administrative order; procure ultrasound probes and resilience kits for FQHCs, CDTs, Vieques, Culebra; contract one virtual maternity program per MCO with evaluation; launch posada materna; stand up the tele-obstetric hub from existing hospitalists; file federal asks (allotment extension, CMMI territory model or 1115, HRSA RMOMS and State MHI, surveillance funding); draft the Midwifery Practice and Birth Center Act, compact bills, and liability package",
+        "ASES, Departamento de Salud, Comisionado de Seguros, Governor; congressional delegation"
+       ],
+       [
+        "Months 6–18: legislation and designation",
+        "Enact the Midwifery Practice and Birth Center Act, NLC and IMLC accession, cross-border telehealth registration, Robson reporting statute (backstop), birth-injury fund, clinical safe-harbor amendments, targeted Act 60 reopening; run competitive hub designation; begin capacity payments; contract nurse-midwifery education partner and fund preceptor sites; open international midwife recruitment; publish first Robson dashboard; publish first MMRC report; launch Maternity Home payment in two pilot regions",
+        "Legislature, Governor, ASES, Departamento de Salud, Junta de Licenciamiento, FOMB"
+       ],
+       [
+        "Months 18–48: build-out and evaluation",
+        "Open alongside midwifery units at every hub; open first three Community Maternity Units (northwest, west-central, southeast), then two more; extend Maternity Home payment island-wide; reach 40% low-risk cesarean by month 24 and trend to 30% by month 60; graduate first local midwifery cohort; complete unified prenatal record on PRHIE; fly the Vieques drone corridor if Part 108 is final; publish independent evaluation against pre-registered outcomes",
+        "Maternity Homes, hubs, ASES, Departamento de Salud, university evaluator"
+       ]
+      ]
+     }
+    },
+    "The pre-registered outcomes for the evaluation should be few and hard: low-risk cesarean rate, severe maternal morbidity, preterm birth, first-trimester enrollment, share of births with a midwife and a doula present, share of births occurring in a facility without a planned attendant, cost per pregnancy episode through twelve months, and patient-reported experience. If by month 36 the cesarean rate has not fallen below 40% and cost per episode has not fallen, the payment design is wrong and should be changed; the evaluation exists to force that conversation rather than to decorate a report."
+   ]
+  },
+  {
+   "h1": "9. Adversarial Review: How This Fails",
+   "body": [
+    "A plan that cannot describe its own failure modes has not been thought through. Eight are identified here, each with the evidence that makes it plausible and the design feature meant to contain it.",
+    "The midwifery workforce does not materialize. Licensing a profession does not create it. If the education partnership stalls, international recruitment runs into immigration walls, and hospitals deny privileges as Minnesota's did for years, Tier 0 defaults to prenatal nurses under physician protocols and Tier 1 never opens. The containment is to make privileges and coverage statutory rights rather than negotiated favors, to fund preceptorship directly, to pursue three sources of midwives at once (local education, mainland compact licensees, international equivalency), and to design Tier 0 so that it delivers value with nurses alone while midwives are built.",
+    "Consolidation happens and readiness does not. The hospitals close, the hubs are designated, and the readiness layer is the line item that gets cut, leaving the unplanned birth in an unready emergency department, which is precisely where Kozhimannil's data locate the harm [57]. The containment is to fund readiness first, before designation, through the administrative order in month one, and to make readiness a condition of every hospital's license rather than a grant program.",
+    "Payment reform produces a null result. Arkansas, Tennessee, Minnesota, and the Netherlands all reformed maternity payment and none moved cesareans or outcomes [38][55][61][62]. The containment is that this design does not rely on payment alone: the evidence-backed lever is public, physician-level measurement combined with mandatory second opinion, and the payment change exists to remove the incentive that would otherwise fight the measurement. If the dashboard is delayed or anonymized under pressure, the plan is in trouble, and that is the political fight worth having.",
+    "The doula benefit exists and nobody uses it. This is the modal outcome in the states [46]. The containment is a rate high enough to sustain a workforce, direct enrollment through the Maternity Home, a statutory right of access to the delivery room, and a locally trained corps rather than an imported one.",
+    "Out-of-hospital birth scales before integration and a first baby dies. The Oregon experience is the warning [43]. The containment is the sequencing: no Community Maternity Unit opens before the licensing statute, the transfer agreements, and the tele-obstetric hub exist; first births are steered to alongside units; and every out-of-hospital birth is in the data system from day one.",
+    "The hospital association and the medical college block the statute. They have blocked every transparency bill so far. The containment is to route the first year through ASES contracting and the Departamento de Salud's licensing authority, so that the measures with the strongest evidence do not depend on legislation, and to make the hub capacity payment attractive enough that the hospitals most likely to be designated become supporters of the consolidation they would otherwise fight.",
+    "The Medicaid cliff arrives and the program is the first casualty. If the 2027 allotment is not extended, Plan Vital loses a quarter to a half of its federal money and every discretionary program is at risk. The containment is that this architecture lowers cost per birth and is therefore the version of maternity care that survives austerity; the paper recommends framing it in Washington as a cliff mitigation measure, and building the highest-return components (mode-neutral payment, Robson reporting, readiness, the home kit) so early that they are embedded before the cliff.",
+    "The technology is bought and sits in a drawer. Ultrasound probes without a billing code, blood pressure cuffs without a nurse hub, plasma without a hemorrhage protocol, and satellite dishes without a maintenance contract all become inventory. The containment is that no device is procured in this plan without its payment path, its clinical protocol, and its staffing named in the same procurement document."
+   ]
+  },
+  {
+   "h1": "10. What Must Be Verified Before Committing Money",
+   "body": [
+    "The research behind this paper was thorough within the limits of public sources, and several primary sources were unreachable. The following items are stated in the body as unverified or estimated and should be resolved, mostly by ASES and the Departamento de Salud from records they already hold, before the budget in Section 5 is treated as anything more than an order of magnitude.",
+    {
+     "list": [
+      "The actual global obstetric fee and per-delivery facility payment under Plan Vital and each managed-care organization, by mode of delivery, and the current APR-DRG relative weights for vaginal and cesarean birth. This is the single most important missing number.",
+      "Whether Plan Vital has adopted twelve-month postpartum coverage, and if not, the cost of doing so under the capped allotment.",
+      "The rate, enrollment mechanism, and utilization of the doula benefit that March of Dimes reports as active.",
+      "The number of nurse-midwives licensed under Ley 254-2015 and practicing, and the status of any midwifery licensing bill in SUTRA.",
+      "A consistent OBGYN headcount series from the Junta de Licenciamiento or AAMC to quantify attrition since 2010.",
+      "The Maternal Mortality Review Committee's case-level findings for 2019–2024: pregnancy-related versus pregnancy-associated deaths, causes, and preventability.",
+      "The current list of labor-and-delivery units and neonatal levels by hospital, including the disputed status of Pavía Arecibo and the opening status and staffing plan of the Vieques hospital.",
+      "Obstetric malpractice premiums and claim frequency from SIMED and other carriers.",
+      "Dollar amounts and current status of Title V, Healthy Start, MIECHV, and any HRSA maternal health awards in Puerto Rico, and whether Puerto Rico administers its Conrad 30 allocation.",
+      "Whether Act 60 Chapter 2 physician decrees are currently being issued at all, and the Fiscal Oversight Board's position on a narrow reopening.",
+      "Vaginal birth after cesarean, low birthweight, and vital-statistics teen birth rates from the NCHS final data tables.",
+      "Annual abortion counts and the operating status of the four remaining clinics under Leyes 122-2025, 183-2025, and 18-2026.",
+      "Which provisions of the 2025 federal reconciliation law, if any, apply to Puerto Rico's Medicaid program."
+     ],
+     "numbered": true
+    }
+   ]
+  },
+  {
+   "h1": "Appendix A. Budget Assumptions",
+   "body": [
+    "The estimates in Table 3 rest on the following stated assumptions. Each is a defensible starting point drawn from the sources cited in the body and should be replaced with Puerto Rico claims and payroll data as soon as ASES releases them.",
+    "Births are assumed at 18,000 a year falling toward 15,000; steady-state figures use 18,000 to be conservative on cost. Plan Vital's share of births is 66%. A caseload midwife carries 35 to 40 births a year at a loaded cost of $150,000, so 40% midwife-led care at 18,000 births requires about 200 midwives; because each midwife-led pregnancy displaces roughly $2,000–2,400 of physician prenatal and delivery fees, the net cost of the midwifery workforce is about half its gross cost [39]. Doula uptake is assumed at 60% at $1,500, well above the mainland experience, on the assumption that direct enrollment and a right of access are enforced. The home kit is $150 in hardware per pregnancy with a 25-person nurse hub. Hub capacity payments of $1.5–2.5 million are sized to the locum-equivalent cost of a 24-hour obstetric hospitalist line ($1.3–1.5 million at about $3,900 per shift) plus a share of anesthesia and neonatal standby [85]. Community Maternity Units are assumed to run at $2.5–3 million each with $1–1.5 million recovered in facility payments. The cesarean offset assumes a 20-point reduction on 18,000 births at $2,000–4,000 per avoided case, consistent with the MACPAC facility differential and the Strong Start birth-cost gap [39][42]. The birth-center pathway offset applies the Strong Start first-year saving of $2,010 to 3,000 low-risk births. Nurse home visiting is costed at a $5,000 per family annual pro-ration of the WSIPP total program cost [92]. Technology capital assumes 100 ultrasound kits at $6,000 including training and 40 resilience kits at $50,000. The Commonwealth share is computed at 24% of the Plan Vital portion through FY2027 and 45% thereafter [19]."
+   ]
+  },
+  {
+   "h1": "Appendix B. Sources",
+   "body": [
+    "Sources are numbered in the order first cited in the body. Where two sources conflict, the body text says so and states which figure is used. Items that could not be reached directly during research (several Departamento de Salud pages, the Asociación de Hospitales, HRSA fact sheets, and the AAMC state profile) are relayed through the press or federal reports cited here, and Section 10 lists the items that must be verified against primary records before money is committed.",
+    "[1]\tCentro de Periodismo Investigativo, \"Puerto Rico's maternity care deserts\" (May 2026). https://periodismoinvestigativo.com/2026/05/puerto-rico-maternity-care-deserts/",
+    "[2]\tMarch of Dimes, 2025 Puerto Rico Report Card (PeriStats). https://www.marchofdimes.org/peristats/reports/puerto-rico/report-card",
+    "[3]\tMarch of Dimes, Maternity Care Deserts Report: Puerto Rico (2024 data). https://www.marchofdimes.org/peristats/assets/s3/reports/mcd/Maternity-Care-Report-PuertoRico.pdf",
+    "[4]\tCDC/NCHS Data Brief 523, cesarean delivery among Puerto Rican mothers, 2023 (January 2025). https://www.cdc.gov/nchs/products/databriefs/db523.htm",
+    "[5]\tCDC/NCHS Data Brief 486, cesarean delivery in Puerto Rico 2018–2022 (2024). https://cdc.gov/nchs/products/databriefs/db486.htm",
+    "[6]\tEl Nuevo Día, \"Puerto Rico cerró el 2024 con poco más de 18,000 nacimientos vivos\" (16 February 2025). https://www.elnuevodia.com/noticias/locales/notas/puerto-rico-cerro-el-2024-con-poco-mas-de-18000-nacimientos-vivos-esperamos-que-siga-bajando/",
+    "[7]\tRegistro Demográfico vital statistics series as compiled in Demographics of Puerto Rico (secondary). https://en.wikipedia.org/wiki/Demographics_of_Puerto_Rico",
+    "[8]\tTelemundo PR, closure of HIMA San Pablo Fajardo labor and delivery (August 2022). https://www.telemundopr.com/noticias/puerto-rico/cierran-sala-de-partos-en-hospital-hima-en-fajardo-por-falta-de-obstetras/2388154/",
+    "[9]\tPrimera Hora, Departamento de Salud authorizes closure of Hospital Damas obstetrics, Ponce (February 2024). https://www.primerahora.com/noticias/gobierno-politica/notas/departamento-de-salud-autoriza-cierre-temporero-de-los-servicios-de-obstetricia-del-hospital-damas-de-ponce/",
+    "[10]\tEl Nuevo Día, Pavía Arecibo requests closure of labor and delivery and NICU (November 2024). https://www.elnuevodia.com/negocios/empresas-comercios/notas/pavia-solicita-el-cierre-de-su-sala-de-partos-y-cuidado-intensivo-neonatal-en-arecibo/",
+    "[11]\tMetro PR, \"Menos de 30 hospitales están equipados para atender nacimientos prematuros\" (6 February 2025). https://www.metro.pr/noticias/2025/02/06/menos-de-30-hospitales-estan-equipados-para-atender-nacimientos-prematuros/",
+    "[12]\tUPR School of Medicine, OB-GYN Residency Program. https://md.rcm.upr.edu/obigyn/ob-gyn-residency-program/",
+    "[13]\tTodas, \"Partería: rescate de un oficio ancestral para reducir cesáreas en Puerto Rico\" (20 August 2026). https://todaspr.com/parteria-rescate-oficio-ancestral-reducir-cesareas-puerto-rico/",
+    "[14]\tLey 254-2015, Ley para regular la práctica de la enfermería en Puerto Rico (LexJuris). https://www.lexjuris.com/lexlex/Leyes2015/lexl2015254.htm",
+    "[15]\tLey 31-2023, Día de la Partería (OGP Biblioteca Virtual). https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/31-2023.pdf",
+    "[16]\tNotiCel, PS 1459 on doula accompaniment in delivery rooms (11 September 2026). https://noticel.com/ultima-hora/20260911/proyecto-persigue-garantizar-el-acompanamiento-de-doulas-en-salas-de-parto/",
+    "[17]\t9 Millones, the new Vieques health center (5 November 2025). https://www.9millones.com/en/story/el-nuevo-centro-de-salud-de-vieques-brindara-la-atencion-necesaria-en-2026",
+    "[18]\tMedicaid.gov, Puerto Rico state overview (enrollment January 2026). https://www.medicaid.gov/state-overviews/puerto-rico.html",
+    "[19]\tKFF, Recent changes in Medicaid financing in Puerto Rico and other U.S. territories (October 2024). https://www.kff.org/elections/recent-changes-in-medicaid-financing-in-puerto-rico-and-other-u-s-territories/",
+    "[20]\tPuerto Rico Report, \"Yet another Medicaid cliff for Puerto Rico\" (1 August 2026). https://puertoricoreport.com/yet-another-medicaid-cliff-for-puerto-rico/",
+    "[21]\tASES, Plan Vital APR-DRG Frequently Asked Questions (March 2025). https://docs.pr.gov/files/ASES/APR-DRG/Plan%20Vital%20APR%20DRG_%20FAQ%20%20Final%2003-26-2025%20for%20ASES%20web.pdf",
+    "[22]\tCenter for Connected Health Policy, Puerto Rico telehealth and Medicaid policy summary. https://www.cchpca.org/puerto-rico/",
+    "[23]\tMedicaid.gov, Rural Health Transformation Program eligibility. https://www.medicaid.gov/resources-for-states/rural-health",
+    "[24]\tKFF, Medicaid postpartum coverage extension tracker (updated 15 July 2026). https://www.kff.org/medicaid/medicaid-postpartum-coverage-extension-tracker/",
+    "[25]\tCentro de Periodismo Investigativo, First Medical unpaid claims and provider refusals (23 April 2026). https://periodismoinvestigativo.com/2026/04/first-medical-unpaid-providers-puerto-rico-patients/",
+    "[26]\tMetro PR, \"Quedó pillado incentivo contributivo del 4% para médicos\" (16 May 2024). https://www.metro.pr/noticias/2024/05/16/quedo-pillado-incentivo-contributivo-del-4-para-medicos/",
+    "[27]\tMicrojuris, Ley 8-2025 telemedicine certification changes (20 April 2025). https://aldia.microjuris.com/2025/04/20/profesionales-de-la-salud-en-puerto-rico-podran-ejercer-telemedicina-sin-certificacion-adicional/",
+    "[28]\tLey 94-2023, liability protections for residents and trainees (LexJuris). https://www.lexjuris.com/lexlex/leyes2023/lexl2023094.htm",
+    "[29]\t9 Millones, \"Tres leyes que restringen la salud reproductiva en Puerto Rico\" (7 April 2026). https://www.9millones.com/en/story/tres-leyes-que-restringen-la-salud-reproductiva-en-puerto-rico",
+    "[30]\tEl Nuevo Día, organizations denounce new reproductive-health laws (20 April 2026). https://www.elnuevodia.com/noticias/locales/notas/denuncian-que-nuevas-leyes-sobre-salud-reproductiva-agravan-crisis-de-servicios-medicos-en-puerto-rico/",
+    "[31]\tEl Nuevo Día, senators demand action on unnecessary cesareans (17 September 2025). https://www.elnuevodia.com/noticias/legislatura/notas/senadoras-del-ppd-y-pip-exigen-accion-para-enfrentar-alza-en-cesareas-innecesarias-en-puerto-rico/",
+    "[32]\tBlooming Families Clinic, summary of proposed birth measures including PC 669 (September 2025). https://www.bloomingfamiliesclinic.com/post/nuevas-medidas-propuestas-sobre-parto-en-puerto-rico",
+    "[33]\tProPublica, ERASE MM maternal mortality funding cuts (8 August 2025). https://www.propublica.org/article/maternal-mortality-erase-mm-funding-cuts",
+    "[34]\tCommonwealth Fund, \"What is PRAMS and why is it at risk\" (January 2026). https://www.commonwealthfund.org/publications/explainer/2026/jan/what-is-prams-and-why-is-it-at-risk",
+    "[35]\tMetro PR, Salud activates monitoring for congenital syphilis (26 February 2026). https://www.metro.pr/noticias/2026/02/26/salud-activa-monitoreo-por-alza-de-sifilis-en-recien-nacidos/",
+    "[36]\tSandall et al., Midwife continuity of care models versus other models of care, Cochrane Database (2024). https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004667.pub6/full",
+    "[37]\tWernham et al., midwife-led versus medical-led care in New Zealand, PLOS Medicine (2016). https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1002134",
+    "[38]\tRIVM, limited effects after five years of bundled payments in Dutch maternity care. https://www.rivm.nl/en/news/limited-effects-visible-after-5-years-of-bundled-payments-in-maternity-care",
+    "[39]\tMACPAC, Access to Maternity Providers: Midwives and Birth Centers (May 2023). https://www.macpac.gov/wp-content/uploads/2023/05/Access-to-Maternity-Providers-Midwives-and-Birth-Centers.pdf",
+    "[40]\tNASHP, Medicaid financing of midwifery services: a 50-state analysis. https://nashp.org/medicaid-financing-of-midwifery-services-a-50-state-analysis/",
+    "[41]\tNPEU, Birthplace in England study results. https://www.npeu.ox.ac.uk/birthplace/results",
+    "[42]\tCMS, Strong Start for Mothers and Newborns final evaluation report. https://downloads.cms.gov/files/cmmi/strongstart-prenatal-finalevalrpt-v1.pdf",
+    "[43]\tNational Academies, Birth Settings in America (2020). https://www.ncbi.nlm.nih.gov/books/NBK555483/",
+    "[44]\tHutton et al., perinatal or neonatal mortality among intended home births, eClinicalMedicine (2019). https://www.sciencedirect.com/science/article/pii/S2589537019301191",
+    "[45]\tBohren et al., Continuous support for women during childbirth, Cochrane (2017). https://www.cochrane.org/evidence/CD003766_continuous-support-women-during-childbirth",
+    "[46]\tMACPAC, Doulas in Medicaid: case study findings (November 2023). https://www.macpac.gov/wp-content/uploads/2023/11/Doulas-in-Medicaid-Case-Study-Findings.pdf",
+    "[47]\tAxios, doula care coverage by Medicaid and insurers (21 April 2026). https://www.axios.com/2026/04/21/doula-care-medicaid-insurance",
+    "[48]\tACOG Clinical Consensus No. 8, Tailored Prenatal Care Delivery (April 2025). https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2025/04/tailored-prenatal-care-delivery-for-pregnant-individuals",
+    "[49]\tOB Nest cost analysis, BMC Pregnancy and Childbirth (2021). https://link.springer.com/article/10.1186/s12884-021-03557-3",
+    "[50]\tHeart Safe Motherhood (Penn Medicine), evidence summary. https://heartsafemotherhood.org/evidence",
+    "[51]\tMeta-analysis of remote blood pressure monitoring RCTs in postpartum hypertension, J Perinat Med (2025). https://pubmed.ncbi.nlm.nih.gov/40123081/",
+    "[52]\tChen et al., Non-clinical interventions for reducing unnecessary caesarean section, Cochrane EPOC (2018). https://www.cochrane.org/CD005528/EPOC_non-clinical-interventions-reducing-unnecessary-caesarean-section",
+    "[53]\tStanford Medicine, California's historic drop in cesareans (CMQCC). https://med.stanford.edu/obgyn/in-the-news/magazine-2023/historic_drop_csectionscalifornia.html",
+    "[54]\tParto Adequado implementation evaluation, Reproductive Health (2024). https://link.springer.com/article/10.1186/s12978-024-01773-6",
+    "[55]\tMACPAC, Medicaid payment initiatives to improve maternal and birth outcomes (April 2019). https://www.macpac.gov/wp-content/uploads/2019/04/Medicaid-Payment-Initiatives-to-Improve-Maternal-and-Birth-Outcomes.pdf",
+    "[56]\tFischer, Royer and White, rural hospital obstetric unit closures, NBER Working Paper 30141. https://www.nber.org/system/files/working_papers/w30141/w30141.pdf",
+    "[57]\tAJMC summary of Kozhimannil et al., JAMA (2018), loss of rural obstetric services. https://www.ajmc.com/view/loss-of-obstetric-services-in-rural-counties-associated-with-childbirth-risks",
+    "[58]\tScottish community maternity units cohort, BMC Pregnancy and Childbirth (2017). https://link.springer.com/article/10.1186/s12884-017-1374-9",
+    "[59]\tFamily physicians providing obstetric care, JABFM (2023). https://www.jabfm.org/content/36/4/565",
+    "[60]\tAIM, Obstetric Emergency Readiness Resource Kit. https://saferbirth.org/aim-obstetric-emergency-readiness-resource-kit/",
+    "[61]\tMACPAC, Arkansas Perinatal Episode of Care (September 2021). https://www.macpac.gov/wp-content/uploads/2021/09/Arkansas-Perinatal-Episode-of-Care.pdf",
+    "[62]\tMACPAC, Tennessee Perinatal Episode of Care Model (September 2021). https://www.macpac.gov/wp-content/uploads/2021/09/Tennessee-Perinatal-Episode-of-Care-Model.pdf",
+    "[63]\tCMS Innovation Center, Transforming Maternal Health (TMaH) Model. https://www.cms.gov/priorities/innovation/innovation-models/tmah",
+    "[64]\tNORC, Evaluation of the Pennsylvania Rural Health Model. https://www.norc.org/research/projects/evaluation-of-the-pennsylvania-rural-health-model.html",
+    "[65]\tCenter for Global Development, Millions Saved: Sri Lanka maternal mortality case. https://www.cgdev.org/sites/default/files/archive/doc/millions/MS_case_6.pdf",
+    "[66]\tGuttmacher Institute, pharmacist-prescribed contraceptives state policy (April 2026). https://www.guttmacher.org/state-policy/explore/pharmacist-prescribed-contraceptives",
+    "[67]\tUCSF, telehealth medication abortion safety study, Nature Medicine (February 2024). https://www.ucsf.edu/news/2024/02/427111/telehealth-safe-visit-clinic-abortion-pills",
+    "[68]\tASCO Post, FDA approval of at-home cervical screening self-collection (May 2025). https://ascopost.com/news/may-2025/fda-approves-at-home-self-collection-device-for-cervical-cancer-screening/",
+    "[69]\tFDA Roundup, HPV self-collection in health care settings (17 May 2024). https://www.fda.gov/news-events/press-announcements/fda-roundup-may-17-2024",
+    "[70]\tButterfly Network, FDA clearance of Gestational Age Tool (2026). https://www.butterflynetwork.com/press-releases/fda-cleared-gestational-age-tool",
+    "[71]\tAI-enabled gestational age estimation by novice users, JAMA Network Open (PMC). https://pmc.ncbi.nlm.nih.gov/articles/PMC11350478/",
+    "[72]\tHandheld ultrasound price guide 2025 (Suresult). https://suresultmed.com/handheld-ultrasound-price-guide-2025/",
+    "[73]\tPrevounce, 2026 remote patient monitoring CPT codes. https://blog.prevounce.com/2026-remote-patient-monitoring-cpt-codes-whats-new-and-what-to-know",
+    "[74]\tPomelo Care Medicaid virtual maternity cohort, Pregnancy (2026). https://pubmed.ncbi.nlm.nih.gov/42596934/",
+    "[75]\tMayo Clinic TeleOB program, Telemedicine and e-Health (2024). https://pubmed.ncbi.nlm.nih.gov/38350119/",
+    "[76]\tScoping review of provider-to-provider obstetric telehealth, Journal of Rural Health (2026). https://pubmed.ncbi.nlm.nih.gov/41636340/",
+    "[77]\tE-MOTIVE cost-effectiveness, Nature Medicine (2024). https://pubmed.ncbi.nlm.nih.gov/38844798/",
+    "[78]\tFDA licenses first freeze-dried plasma product (29 July 2026). https://www.fda.gov/news-events/press-announcements/fda-licenses-first-ever-freeze-dried-plasma-product-us",
+    "[79]\tZipline Rwanda postpartum hemorrhage mortality pre/post study (preprint). https://www.researchsquare.com/article/rs-8454583/v1",
+    "[80]\tDrone Intelligence, FAA Part 108 status (September 2026). https://droneintelligence.ai/insights/part-108-oira-operators-build-ahead",
+    "[81]\tDirect Relief, resilient power in Puerto Rico community clinics (January 2026). https://www.directrelief.org/2026/01/in-puerto-ricos-community-clinics-resilient-power-bolsters-healthcare-and-access-to-treatment/",
+    "[82]\tHealth Gorilla, Puerto Rico HIE commits to QHIN. https://www.healthgorilla.com/blog/puerto-rico-hie-commits-to-joining-prospective-health-gorilla-qhin",
+    "[83]\tCompHealth, Interstate Medical Licensure Compact member list. https://comphealth.com/resources/interstate-medical-licensure-compact",
+    "[84]\tNCSBN, Nurse Licensure Compact. https://www.nursecompact.com/",
+    "[85]\tBarton Associates, OB/GYN salary and locum tenens guide. https://www.bartonassociates.com/ob-gyn-physician-salary-guide/",
+    "[86]\tLacted, integrating midwives into Puerto Rico's hospitals (August 2026). https://www.lacted.com/post/integrar-parteras-al-sistema-de-salud-y-hospitales-de-puerto-rico-tiene-un-potencial-significativo-p",
+    "[87]\tMeta-analysis of continuous glucose monitoring in gestational diabetes, Acta Diabetologica (2026). https://pubmed.ncbi.nlm.nih.gov/41591479/",
+    "[88]\tINFANT trial, computerized interpretation of fetal heart rate, Lancet (2017). https://pubmed.ncbi.nlm.nih.gov/29437032/",
+    "[89]\tBloomberg, Nuvo Group bankruptcy filing (22 August 2024). https://www.bloomberg.com/news/articles/2024-08-22/newly-public-pregnancy-care-firm-nuvo-files-for-bankruptcy",
+    "[90]\tCDC, Zika Contraception Access Network (Z-CAN) in Puerto Rico. https://stacks.cdc.gov/view/cdc/110260/cdc_110260_DS1.pdf",
+    "[91]\tLey 122-2025 (LexJuris). https://www.lexjuris.com/lexlex/Leyes2025/lexl2025122.htm",
+    "[92]\tWSIPP benefit-cost analysis, Nurse-Family Partnership. https://www.wsipp.wa.gov/BenefitCost/Program/35",
+    "[93]\tCenteringPregnancy South Carolina Medicaid analysis (PubMed). https://pubmed.ncbi.nlm.nih.gov/26979611/",
+    "[94]\tUAMS, ANGELS program evaluation. https://idhi.uams.edu/high-risk-pregnancy-program/annual-reports/angels-program-evaluation/",
+    "[95]\tAHA, HRSA RMOMS final report highlights (24 July 2026). https://www.aha.org/news/headline/2026-07-24-report-highlights-how-rural-areas-expanded-maternity-care-access",
+    "[96]\tCentro de Periodismo Investigativo, assisted reproduction without coverage (July 2024). https://periodismoinvestigativo.com/2024/07/reproduccion-asistida-sin-cobertura-medica-maternidad/",
+    "[97]\tSystematic review of sFlt-1/PlGF cost studies, AJOG Global Reports (2025). https://pubmed.ncbi.nlm.nih.gov/40496903/",
+    "[98]\tAct 60 Chapter 2 (formerly Act 14-2017) physician incentive summary (Torres CPA). https://torrescpa.com/wp-content/uploads/2022/09/02-Professional-Physicians-Act-60-Chapter-2-of-Subtitle-B-formerly-known-as-Act-14.pdf",
+    "[99]\tLey 186-2016, maternal mortality surveillance (OGP Biblioteca Virtual). https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/186-2016.pdf",
+    "[100]\tGeorgetown CCF, Consolidated Appropriations Act 2023 Medicaid provisions (January 2023). https://ccf.georgetown.edu/2023/01/05/consolidated-appropriations-act-2023-medicaid-and-chip-provisions-explained/",
+    "[101]\tUniversity of Minnesota Rural Health Research Center, obstetric volume and quality in rural hospitals. https://www.ruralhealthresearch.org/publications/1015",
+    "[102]\tEl Vocero, \"En jaque la obstetricia en Puerto Rico\" (2023). https://www.elvocero.com/actualidad/salud/en-jaque-la-obstetricia-en-puerto-rico/article_04969f88-ff08-11ed-b497-174c34c20324.html"
+   ]
+  }
+ ]
+}
